@@ -1,0 +1,38 @@
+[
+    {
+        "name": "ZhiRong Shen",
+        "degree": "Associate Professor",
+        "date": "2024",
+        "after": "now associate professor at Tsinghua"
+    },
+    {
+        "name": "Qing Wang",
+        "degree": "PhD",
+        "date": "2024",
+        "after": "Xiamen University"
+    },
+    {
+        "name": "Fei Li",
+        "degree": "PhD",
+        "date": "2024",
+        "after": "Google"
+    },
+    {
+        "name": "LuoChang Hong",
+        "degree": "MS",
+        "date": "2024",
+        "after": "Tencent"
+    },
+    {
+        "name": "NuoLa Yong",
+        "degree": "MS",
+        "date": "2024",
+        "after": "Alibaba"
+    },
+    {
+        "name": "Xiao Li",
+        "degree": "MS",
+        "date": "2024",
+        "after": "now associate professor at Tsinghua"
+    }
+]

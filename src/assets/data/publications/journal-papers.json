@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Edge Computing: Trends and Future Directions",
+        "authors": "[Olivia Johnson](https://www.example.com/olivia), [**Zhirong Shen**](https://www.example.com/lucas), [James Smith](https://www.example.com/james)",
+        "publication": "Presented at the International Workshop on Edge Computing (**IWEC'24**), November 5-7, 2024, Virtual Event.",
+        "links": {
+            "paper": "https://www.example.com/paper6",
+            "slides": "https://www.example.com/slides6",
+            "code": "https://www.example.com/code6"
+        }
+    },
+    {
+        "title": "Big Data Analytics: Challenges and Opportunities in Cloud-Based Architectures",
+        "authors": "[Sophia Garcia](https://www.example.com/sophia), [Daniel Lee](https://www.example.com/daniel), [**Zhirong Shen**](https://www.example.com/michael)",
+        "publication": "Presented at the International Conference on Big Data (**ICBD'24**), September 20-22, 2024, Virtual Event.",
+        "links": {
+            "paper": "https://www.example.com/paper4",
+            "code": "https://www.example.com/code4"
+        }
+    },
+    {
+        "title": "Optimizing Resource Allocation in Cloud Computing Environments",
+        "authors": "[Chris Lee](https://www.example.com/chris), [Emily White](https://www.example.com/emily), [**Zhirong Shen**](https://www.example.com/john)",
+        "publication": "Presented at the International Symposium on Cloud Computing (**ISCC'24**), July 5-7, 2024, Virtual Event.",
+        "links": {
+            "paper": "https://www.example.com/paper2",
+            "slides": "https://www.example.com/slides2"
+        }
+    },
+    {
+        "title": "Enhancing Data Security in Cloud Computing using Homomorphic Encryption",
+        "authors": "[Bob Johnson](https://www.example.com/bob), [**Zhirong Shen**](https://www.example.com/eve), [Alice Smith](https://www.example.com/alice)",
+        "publication": "Presented at the International Conference on Cloud Computing (**ICCC'24**), June 15-17, 2024, Virtual Event.",
+            "links": {
+            "paper": "https://www.example.com/paper1"
+        }
+    },
+    {
+        "title": "Scalable Distributed Machine Learning in Edge Computing Environments",
+        "authors": "[Frank Rodriguez](https://www.example.com/frank), [Emma Thompson](https://www.example.com/emma), [**Zhirong Shen**](https://www.example.com/david)",
+        "publication": "Published in the Journal of Edge Computing (**JEC'24**), Vol. 5, No. 2, April 2024.",
+        "links": {
+            "paper": "https://www.example.com/paper2",
+            "slides": "https://www.example.com/slides2",
+            "code": "https://www.example.com/code2"
+        }
+    },
+    {
+        "title": "Secure Federated Learning Framework for Healthcare Data Sharing",
+        "authors": "[**Zhirong Shen**](https://www.example.com/grace), [Ivy Chen](https://www.example.com/ivy), [Henry Johnson](https://www.example.com/henry)",
+        "publication": "Presented at the International Conference on Health Informatics (**ICHI'24**), September 10-12, 2024, London, UK.",
+        "links": {
+            "paper": "https://www.example.com/paper3",
+            "code": "https://www.example.com/code3"
+        }
+    },
+    {
+        "title": "Efficient Resource Allocation in Fog Computing Environments",
+        "authors": "[Peter Johnson](https://www.example.com/peter), [**Zhirong Shen**](https://www.example.com/quinn), [Quinn Lee](https://www.example.com/quinn)",
+        "publication": "Presented at the ACM Conference on Fog and Edge Computing (**FEC'24**), August 20-22, 2024, San Francisco, USA.",
+        "links": {
+            "paper": "https://www.example.com/paper4",
+            "slides": "https://www.example.com/slides4"
+        }
+    },
+    {
+        "title": "Robust Intrusion Detection System for Internet of Things Networks",
+        "authors": "[**Zhirong Shen**](https://www.example.com/sophia), [Thomas Wilson](https://www.example.com/thomas), [Uma Patel](https://www.example.com/uma)",
+        "publication": "Published in the IEEE Transactions on Dependable and Secure Computing (**TDSC'24**), Vol. 21, No. 3, May-June 2024.",
+        "links": {
+        "paper": "https://www.example.com/paper5",
+            "slides": "https://www.example.com/slides5",
+            "code": "https://www.example.com/code5"
+        }
+    },
+    {
+        "title": "Machine Learning Models for Predictive Maintenance in Industrial IoT Systems",
+        "authors": "[Wendy Taylor](https://www.example.com/wendy), [Xavier Garcia](https://www.example.com/xavier), [**Zhirong Shen**](https://www.example.com/victor)",
+        "publication": "Presented at the International Conference on Industrial Internet of Things (**IIoT'24**), October 15-17, 2024, Munich, Germany.",
+        "links": {
+        "paper": "https://www.example.com/paper6",
+            "slides": "https://www.example.com/slides6",
+            "code": "https://www.example.com/code6"
+        }
+    },
+    {
+        "title": "Privacy-Preserving Data Aggregation Techniques for Smart Grids",
+        "authors": "[Lucas Wang](https://www.example.com/lucas), [Kelly Brown](https://www.example.com/kelly), [**Zhirong Shen**](https://www.example.com/jack)",
+        "publication": "Published in the Proceedings of the IEEE International Conference on Smart Grid Communications (**SmartGridCom'24**), November 5-7, 2024, Sydney, Australia.",
+        "links": {
+            "paper": "https://www.example.com/paper7",
+            "slides": "https://www.example.com/slides7"
+        }
+    }
+]
