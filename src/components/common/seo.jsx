@@ -1,0 +1,26 @@
+import * as React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
+
+
+/**
+ * SEO 组件，用于赋值给 Head
+ * 
+ * @param {Object} props
+ * @param {string} props.title 页面标题（前半部分）
+ * @returns {React.ReactNode} SEO 组件
+ */
+export default function Seo({ title }) {
+    const data = useStaticQuery(graphql`
+        query {
+            site {
+                siteMetadata {
+                    title
+                }
+            }
+        }
+    `)
+
+    return (
+        <title>{title} | {data.site.siteMetadata.title}</title>
+    )
+}

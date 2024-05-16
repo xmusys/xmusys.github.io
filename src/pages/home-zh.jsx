@@ -6,12 +6,12 @@ import Seo from "../components/common/seo"
 import HomeIndex from "../components/home/home-index"
 
 
-export default function HomeEnPage() {
+export default function HomeZhPage() {
     return (
-        <LangContext.Provider value="en">
+        <LangContext.Provider value="zh">
             <HomeIndex></HomeIndex>
         </LangContext.Provider>
     )
 }
 
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="首页" />

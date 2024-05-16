@@ -1,6 +1,7 @@
 import * as React from "react"
-import Seo from '../components/seo'
-import Layout from '../components/layout'
+import Layout from "../components/common/layout"
+import Seo from "../components/common/seo"
+
 
 
 export default function NotFoundPage() {

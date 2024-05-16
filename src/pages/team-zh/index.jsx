@@ -7,10 +7,10 @@ import TeamIndex from "../../components/team/team-index"
 
 export default function TeamPage() {
     return (
-        <LangContext.Provider value="en">
+        <LangContext.Provider value="zh">
             <TeamIndex></TeamIndex>
         </LangContext.Provider>
     )
 }
 
-export const Head = () => <Seo title="Team" />
+export const Head = () => <Seo title="团队成员" />

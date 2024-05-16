@@ -2,9 +2,8 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: `/Lab`,
   siteMetadata: {
-    title: `Lab`,
+    title: `ERAS Group`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [

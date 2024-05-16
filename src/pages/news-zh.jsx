@@ -6,12 +6,12 @@ import Seo from "../components/common/seo"
 import NewsIndex from "../components/news/news-index"
 
 
-export default function NewsEnPage() {
+export default function NewsZhPage() {
     return (
-        <LangContext.Provider value="en">
+        <LangContext.Provider value="zh">
             <NewsIndex />
         </LangContext.Provider>
     )
 }
 
-export const Head = () => <Seo title="News" />
+export const Head = () => <Seo title="新闻" />

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "陈建强",
+        "degree": "硕士",
+        "date": "2024",
+        "first_job": "阿里巴巴"
+    },
+    {
+        "name": "翟介宾",
+        "degree": "硕士",
+        "date": "2024",
+        "first_job": "国家开发银行"
+    },
+    {
+        "name": "陈梁",
+        "degree": "硕士",
+        "date": "2024",
+        "first_job": "蚂蚁"
+    },
+    {
+        "name": "龚红彬",
+        "degree": "硕士",
+        "date": "2023",
+        "first_job": "合见工软"
+    },
+    {
+        "name": "龚国文",
+        "degree": "硕士",
+        "date": "2023",
+        "first_job": "合见工软"
+    },
+    {
+        "name": "林诗尧",
+        "degree": "硕士",
+        "date": "2022",
+        "first_job": "微软"
+    }
+]

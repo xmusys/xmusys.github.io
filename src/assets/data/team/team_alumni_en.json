@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Jianqiang Chen",
+        "degree": "Master",
+        "date": "2024",
+        "first_job": "Alibaba"
+    },
+    {
+        "name": "Jiebin Zhai",
+        "degree": "Master",
+        "date": "2024",
+        "first_job": "China Development Bank"
+    },
+    {
+        "name": "Liang Chen",
+        "degree": "Master",
+        "date": "2024",
+        "first_job": "Ant Group"
+    },
+    {
+        "name": "Hongbin Gong",
+        "degree": "Master",
+        "date": "2023",
+        "first_job": "UniVista"
+    },
+    {
+        "name": "Guowen Gong",
+        "degree": "Master",
+        "date": "2023",
+        "first_job": "UniVista"
+    },
+    {
+        "name": "Shiyao Lin",
+        "degree": "Master",
+        "date": "2022",
+        "first_job": "Microsoft"
+    }
+]

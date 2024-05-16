@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public main"
+    "deploy": "gatsby build && gh-pages -d public main"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.9.0",
     "gatsby": "^5.13.3",
+    "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-mdx": "^5.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
