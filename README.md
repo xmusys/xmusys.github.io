@@ -5,12 +5,16 @@
 ---
 
 > 页面基于 [Gastsby](https://www.gatsbyjs.com/) 构建，部署于 [GitHub Pages](https://pages.github.com/) 
+>
+> Get Start  >  加入仓库，直接在代码仓库中编辑，或克隆/拉取到本地后进行修改，然后推送到 main 分支
+>
+> 下面是资料的具体介绍
 
 ---
 
-## 0、目录结构
+## 🗂目录结构 
 
-> 这里是存放数据的目录
+> 这里是存放数据的目录，总体分为 **介绍、新闻、论文、成员、图片** 五个部分，还有 **注意事项**
 
 - 📁 `assets` - `数据根目录`
   - 📁 `images` - `图片`
@@ -20,25 +24,25 @@
     - 📁 `home` - `首页介绍`
       - 📄 `home_en.mdx` - `英文`
       - 📄 `home_zh.mdx` - `中文`
-    - 📁 `join_us` - `纳新介绍`
+    - 📁 `join_us` - `加入我们`
       - 📄 `join_us_en.mdx` - `英文`
       - 📄 `join_us_zh.mdx` - `中文`
-    - 📁 `research` - `研究介绍`
+    - 📁 `research` - `研究领域`
       - 📄 `research_en.mdx` - `英文`
       - 📄 `research_zh.mdx` - `中文`
     - 📁 `news` - `新闻`
       - 📄 `news.json` - `新闻`
-    - 📁 `publications` - `论文发表`
+    - 📁 `publications` - `论文`
       - 📄 `conference_papers.json` - `会议论文`
       - 📄 `journal_papers.json` - `期刊论文`
-    - 📁 `team` - `团队成员`
+    - 📁 `team` - `成员`
       - 📄`team.json` - `现团队成员`
       - 📄`alumni.json` - `已毕业校友`
-  
+
 
 ---
 
-## 1、`📁 Home` +  `📁 Join Us` + `📁 Research`
+## 1、介绍：`📁Home`、`📁Join Us`、`📁Research`
 
 后缀 `.mdx` 的都是使用 `Markdown` 编写，需要修改时可以直接替换文本
 
@@ -100,30 +104,31 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 
 
 
-- 📄 `research_zh.mdx` 和 📄 `research_en.mdx`
+- **📄 `research_zh.mdx` 和 📄 `research_en.mdx`**
 
 > 没有附加的东西，是 `Markdown` 格式的纯文本，可以直接修改
 
 ```markdown
-# Research Areas
+# 研究领域
 
-## Emerging memory
+## 新兴存储芯片
 
 - PM: LearnWD(HPCA'24), CacheKV (ICDE'23), ResEnc (IEEE TC)
 - 3D-Flash: CC-Flash (SAC'23), ParaGC (ICCD'22), SpeedupGC (ICCD'23)
 
 ---
 
-## Erasure coding
+## 基于纠删码的容错技术
 
-- Efficient Access: RackCU (INFOCOM'21)
-- Reliable Storage: RepairBoost (ATC'21)
+- 高效访问
+- 高可靠存储
 
+---
 ```
 
 ---
 
-## 2、`📁 News`
+## 2、新闻：`📁News`
 
 **📄 `news.json`**
 
@@ -153,7 +158,7 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 
 - 例子
 
-> 例子的 `[Ronglong](/rong-long-wu)` 是 `Markdown` 的链接语法，指向个人主页的链接，在第四点 `4、Team` 会提到，这里用于在新闻中指向个人简历主页
+> 例子的 `[Ronglong](/rong-long-wu)` 是 `Markdown` 的链接语法，指向个人主页的链接，在**第四点 `4、Team` **或者最后的**注意事项**会提到，这里用于在新闻中指向个人简历主页
 
 ```json
 {
@@ -167,7 +172,7 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 
 ---
 
-## 3、`📁 Publications`
+## 3、论文：`📁Publications`
 
 **📄 `conference_papers.json` 和 📄 `journal_papers.json`**
 
@@ -215,7 +220,7 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 
 ---
 
-## 4、`📁 Team`
+## 4、成员：`📁Team`
 
 **校友 📄 `alumni.json`**
 
@@ -288,6 +293,8 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 >- 那么小红的 中文个人主页在  `xxx.github.io/xiao-hong-zh` 下，英文个人主页在 `xxx.github.io/xiao-hong` 下
 >- 当姓名为同音字时，这个字段可以防止个人主页的路径有冲突。
 >- 或者不想用姓名，可以拿来自定义自己的个人主页路径
+>
+>`publications`：结构同上面的 `4、Publications`
 
 - 初始模版
 
@@ -351,8 +358,8 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
         { "type": "homepage", "url": "个人主页链接" },
     ],
     "about_me": {
-        "en": "自我介绍，英文",
-        "zh": "自我介绍，中文"
+        "en": "自我介绍，英文，支持 Markdown",
+        "zh": "自我介绍，中文，支持 Markdown"
     },
     "education": {
         "en": [
@@ -362,16 +369,16 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
             { "degree": "学历", "major": "主修科目、学校等", "period": "开始时间 - 结束时间" }
         ]
     },
-    "publications": [ // 和上面 conference_papers.json 里面定义的结构一样
+    "publications": [
         {
             "title": "论文标题",
             "authors": "论文作者，支持 Markdown",
             "publication": "会议/期刊信息，支持 Markdown",
             "links": [
                 {"type": "链接类型，支持下面这些" "url": "链接地址"},
-                {"type": "paper", "url": "https://github.com/shenzr"}, // 论文链接
-                {"type": "slides", "url": "https://github.com/shenzr"}, // PPT 链接
-                {"type": "code", "url": "https://github.com/shenzr"} // "代码链接"
+                {"type": "paper", "url": "https://github.com/shenzr"},
+                {"type": "slides", "url": "https://github.com/shenzr"},
+                {"type": "code", "url": "https://github.com/shenzr"}
             ]
         }
     ],
@@ -456,7 +463,7 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 
 ---
 
-## 5、图片
+## 5、图片：`📁Images`
 
 - **📁 `home` - `首页轮播图`**
   - 这里存放首页的轮播图，没限制
@@ -466,9 +473,13 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 
 ---
 
-## 6、注意事项 及 初始模版
+## 🔔注意事项
 
-> 下面是模版，这些字段只能增加或置空，但不能删除，数据不足可能会发生错误
+### 初始模版
+
+> 在添加新闻、论文、成员时
+>
+> 下面是最基本的初始模版，这些字段只能增加或置空，但不能删除，数据不足可能会发生错误
 >
 > 模版文件放在顶级文件夹 /templates 下，可以复制粘贴然后添加数据，或者复制已有的数据进行修改
 >
@@ -555,3 +566,24 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
     }
 }
 ```
+
+### 个人主页
+
+- 个人主页的路径是需要在自己的数据中 `slug` 字段定义的
+- 定义之后
+  - 中文个人主页：`xmusys.github.io/{slug}-zh`
+  - 英文个人主页：`xmusys.github.io/{slug}`
+
+### Markdown 支持
+
+- 支持部分（大段的文字都支持）
+  - **Home、 Join Us、Research**
+  - 新闻的 **内容**
+  - 论文的 **作者、会议/期刊信息** 
+  - 成员的 **自我介绍、论文(作者、会议/期刊信息)、主要奖项**
+- 常用用法
+  - 链接：`[San Zhang](zhang-san)` / `[张三](zhang-san-zh)`（链接到个人主页）
+  - 斜体：`*ERAS Research Group*` 
+  - 粗体：`**Author: Zhang San**` （论文作者加粗）
+  - 标题：`# Welcome to ERAS Research Group`
+  - 列表：`- research item` （研究领域列表、加入我们页面的指南列表）

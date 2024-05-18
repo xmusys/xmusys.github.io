@@ -7,7 +7,7 @@ import Seo from "../components/common/seo"
 export default function NotFoundPage() {
     return (
         <Layout>
-            <div className="flex flex-col items-center justify-center h-screen">
+            <div className="flex flex-col items-center justify-center">
                 <h1 className="text-4xl font-bold">404: Not Found</h1>
                 <p className="text-xl">You just hit a route that doesn&#39;t exist... the sadness.</p>
             </div>
