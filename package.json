@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@ran-ddd:Ran-ddd/Lab.git"
+    "url": "git@xmusys:xmusys/xmusys.github.io.git"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.18",
