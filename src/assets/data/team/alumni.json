@@ -1,0 +1,92 @@
+[
+  {
+    "name": {
+      "en": "Jianqiang Chen",
+      "zh": "陈建强"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "date": "2024",
+    "first_job": {
+      "en": "Alibaba",
+      "zh": "阿里巴巴"
+    }
+  },
+  {
+    "name": {
+      "en": "Jiebin Zhai",
+      "zh": "翟介宾"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "date": "2024",
+    "first_job": {
+      "en": "China Development Bank",
+      "zh": "国家开发银行"
+    }
+  },
+  {
+    "name": {
+      "en": "Liang Chen",
+      "zh": "陈梁"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "date": "2024",
+    "first_job": {
+      "en": "Ant Group",
+      "zh": "蚂蚁"
+    }
+  },
+  {
+    "name": {
+      "en": "Hongbin Gong",
+      "zh": "龚红彬"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "date": "2023",
+    "first_job": {
+      "en": "UniVista",
+      "zh": "合见工软"
+    }
+  },
+  {
+    "name": {
+      "en": "Guowen Gong",
+      "zh": "龚国文"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "date": "2023",
+    "first_job": {
+      "en": "UniVista",
+      "zh": "合见工软"
+    }
+  },
+  {
+    "name": {
+      "en": "Shiyao Lin",
+      "zh": "林诗尧"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "date": "2022",
+    "first_job": {
+      "en": "Microsoft",
+      "zh": "微软"
+    }
+  }
+]

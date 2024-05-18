@@ -7,6 +7,11 @@ import Layout from "../common/layout"
 import ResearchEnMdx from "../../assets/data/research/research_en.mdx"
 import ResearchZhMdx from "../../assets/data/research/research_zh.mdx"
 
+/**
+ * 研究领域页面入口
+ * 
+ * @returns {React.ReactNode}
+ */
 export default function ResearchIndex() {
     const lang = useContext(LangContext)
 

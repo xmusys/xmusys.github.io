@@ -4,9 +4,9 @@ import Layout from "../common/layout"
 import NewsList from "../common-page/news-list"
 
 /**
- * 新闻页面 - 入口组件
+ * 新闻页面入口
  * 
- * @returns {React.ReactNode} 新闻页面 - 入口组件
+ * @returns {React.ReactNode}
  */
 export default function NewsIndex() {
     return (

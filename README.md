@@ -1,10 +1,13 @@
-# ERAS Group 
+# ERAS Research Group 
 
-*Efficient, Reliable, and Advanced Storage Research Group.*
+>  *Efficient, Reliable, and Advanced Storage Research Group.*
 
-## 数据目录
+---
 
-### 0、目录结构
+## 0、目录结构
+
+> 这里是存放数据的目录
+
 - 📁 `assets` - `根目录`
   - 📁 `data` - `数据`
     - 📁 `home` - `首页介绍`
@@ -17,179 +20,418 @@
       - 📄 `research_en.mdx` - `英文`
       - 📄 `research_zh.mdx` - `中文`
     - 📁 `news` - `新闻`
-      - 📄 `news_en.json` - `英文`
-      - 📄 `news_zh.json` - `中文`
+      - 📄 `news.json` - `新闻`
     - 📁 `publications` - `论文发表`
       - 📄 `conference_papers.json` - `会议论文`
       - 📄 `journal_papers.json` - `期刊论文`
     - 📁 `team` - `团队成员`
-      - 📄`team_falucty_en.json` - `教授-英文`
-      - 📄`team_falucty_zh.json` - `教授-中文`
-      - 📄`team_postdoc_en.json` - `博士后-英文`
-      - 📄`team_postdoc_zh.json` - `博士后-中文`
-      - 📄`team_phd_students_en.json` - `博士-英文`
-      - 📄`team_phd_students_zh.json` - `博士-中文`
-      - 📄`team_ms_students_en.json` - `硕士-英文`
-      - 📄`team_ms_students_zh.json` - `硕士-中文`
-      - 📄`team_alumni_en.json` - `校友-英文`
-      - 📄`team_alumni_zh.json` - `校友-中文`
+      - 📄`team.json` - `现团队成员`
+      - 📄`alumni.json` - `已毕业校友`
   - 📁 `images` - `图片`
     - 📁 `home` - `首页轮播图`
     - 📁 `team` - `成员照片`
 
-### 1、`📁 Home` & `📁 Join Us` &  `📁 Research`
+---
 
-使用 `Markdown` 编写，需要修改时可以直接替换文本
+## 1、`📁 Home` +  `📁 Join Us` + `📁 Research`
 
-### 2、`📁 News`
+后缀 `.mdx` 的都是使用 `Markdown` 编写，需要修改时可以直接替换文本
+
+- 📄 `home_zh.mdx`
+
+```markdown
+# 欢迎来到 ERAS 研究小组！
+
+*高效、可靠、先进的存储研究小组*
+
+ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研究，主要研究内容包括基于纠删码的高可靠存储和高效访问技术，新兴存储器件的容错和性能优化，以及KV存储系统。
+
+在过去三年中，我们团队在国际会议和权威期刊上发表了十多篇论文，包括 USENIX ATC、HPCA、INFOCOM 和 IEEE TC。此外，我们还获得了国家自然科学基金等国家级资助，并与阿里巴巴、华为等知名公司建立了合作关系。
+
+<HomeCarousel />
+```
+
+其中 `<HomeCarousel />` 是轮播图，可以调整排版，如：
+
+```markdown
+# 欢迎来到 ERAS 研究小组！
+
+*高效、可靠、先进的存储研究小组*
+
+ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研究，主要研究内容包括基于纠删码的高可靠存储和高效访问技术，新兴存储器件的容错和性能优化，以及KV存储系统。
+
+<HomeCarousel />
+
+在过去三年中，我们团队在国际会议和权威期刊上发表了十多篇论文，包括 USENIX ATC、HPCA、INFOCOM 和 IEEE TC。此外，我们还获得了国家自然科学基金等国家级资助，并与阿里巴巴、华为等知名公司建立了合作关系。
+```
+
+- 📄 `join_us_zh.mdx`
+
+其中 `<EmailIcon />` 和 `<PositionIcon />` 分别是 邮箱图标📧 和 位置图标📍
+
+之后有需要还有 `<PhoneIcon />`，电话图标 📞
+
+```markdown
+# 加入我们
+
+**我们团队的研究目标是为大型存储系统和数据中心设计和构建安全可靠的技术，如果您对我们的研究课题感兴趣，欢迎与沈志荣联系！**
+
+- 对有志于攻读硕士或博士学位的同学，可以尽早与我们联系。
+- 我们欢迎对系统和内存研究感兴趣的本科生。
+- 我们团队有博士后名额，详情请联系沈志荣。
+
+---
+
+# 联系方式
+
+<EmailIcon /> zhirong.shen2601@gmail.com, shenzr@xmu.edu.cn
+
+<PositionIcon /> 厦门市翔安区厦门大学翔安校区西部片区3号楼101
+```
+
+- 📄 `research_zh.mdx`
+
+没有附加的东西，是 `Markdown` 格式的纯文本
+
+```markdown
+# Research Areas
+
+## Emerging memory
+
+- PM: LearnWD(HPCA'24), CacheKV (ICDE'23), ResEnc (IEEE TC)
+- 3D-Flash: CC-Flash (SAC'23), ParaGC (ICCD'22), SpeedupGC (ICCD'23)
+
+---
+
+## Erasure coding
+
+- Efficient Access: RackCU (INFOCOM'21)
+- Reliable Storage: RepairBoost (ATC'21)
+
+```
+
+---
+
+## 2、`📁 News`
 
 使用 `Json` 编写
+
+- 📄 `news.json`
+
+这里的 `[Ronglong](/rong-long-wu)` 是 `Markdown` 的链接语法，指向个人主页的链接，在第四点 `4、Team` 会提到
 
 ```json
 // 结构
 {
-    "date": "日期",
-    "content": "新闻内容，支持 Markdown"
+    "date": "日期，需要 yyyy-mm 的格式",
+    "content": {
+        "en": "英文，新闻内容，支持 Markdown",
+        "zh": "中文，新闻内容，支持 Markdown"
+    }
 }
 
 // 例子
 {
-    "date": "May 2024",
-    "content": "Two papers have been accepted to USENIX ATC'24. Congratulations to Ronglong, Shuyue, and Yijie."
-}
+        "date": "2024-5",
+        "content": {
+            "en": "Two papers have been accepted to USENIX ATC'24. Congratulations to [Ronglong](/rong-long-wu), [Shuyue](/shu-yue-zhou), and [Yijie](/yi-jie-zhong).",
+            "zh": "两篇论文被 USENIX ATC'24 接收。祝贺 [吴镕龙](/rong-long-wu-zh)、[周书悦](/shu-yue-zhou-zh) 和 [钟一捷](/yi-jie-zhong-zh)。"
+        }
+    },
 ```
 
-### 3、`📁 Publications`
+---
+
+## 3、`📁 Publications`
 
 使用 `Json` 编写
+
+- 📄 `conference_papers.json` 和 📄 `journal_papers.json`
 
 ```json
 // 结构
 {
     "title": "论文标题",
     "authors": "论文作者，支持 Markdown",
-    "publication": "会议/期刊 信息，支持 Markdown",
-    "links": {
-        "paper": "论文链接",
-        "slides": "PPT 链接",
-        "code": "代码链接"
-    }
+    "publication": "会议/期刊信息，支持 Markdown",
+    "links": [
+        {"type": "链接类型，支持下面这些" "url": "链接地址"},
+        {"type": "paper", "url": "https://github.com/shenzr"}, // 论文链接
+        {"type": "slides", "url": "https://github.com/shenzr"}, // PPT 链接
+        {"type": "code", "url": "https://github.com/shenzr"} // "代码链接"
+    ]
 }
 
 // 例子
 {
-    "title": "UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy.",
-    "authors": "Yijie Zhong, Minqiang Zhou, **Zhirong Shen**, Jiwu Shu",
-    "publication": "In Proceedings of 2024 USENIX Annual Technical Conference (**USENIX ATC'24**), July 10-12, 2024. (AR: 77/488=15.8%)",
-    "links": {
-        "paper": "https://github.com/shenzr",
-        "slides": "https://github.com/shenzr",
-        "code": "https://github.com/shenzr"
-    }
-},
+        "title": "UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy.",
+        "authors": "Yijie Zhong, Minqiang Zhou, **Zhirong Shen**, Jiwu Shu",
+        "publication": "In Proceedings of 2024 USENIX Annual Technical Conference (**USENIX ATC'24**), July 10-12, 2024. (AR: 77/488=15.8%)",
+        "links": [
+            {"type": "paper", "url": "https://github.com/shenzr"},
+            {"type": "code", "url": "https://github.com/shenzr"},
+            {"type": "code", "url": "https://gitee.com/shenzr"}
+        ]
+    },
 ```
 
-### 4、`📁 Team`
+## 4、`📁 Team`
 
 使用 `Json` 编写
 
-- 校友
+- 校友 📄 `alumni.json`
 ```Json
 // 结构
 {
-    "name": "姓名",
-    "degreee": "学位",
+    "name": {
+      	"en": "姓名，英文",
+      	"zh": "姓名，中文"
+    },
+    "degree": {
+        "en": "学位，英文",
+        "zh": "学位，中文"
+    },
     "date": "毕业时间",
-    "first_job": "第一份工作"
-}
+    "first_job": {
+      	"en": "毕业第一份工作，英文",
+      	"zh": "毕业第一份工作，中文"
+    }
+},
 
 // 例子
 {
-    "name": "陈建强",
-    "degree": "硕士",
+    "name": {
+      "en": "Jianqiang Chen",
+      "zh": "陈建强"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
     "date": "2024",
-    "first_job": "阿里巴巴"
+    "first_job": {
+      "en": "Alibaba",
+      "zh": "阿里巴巴"
+    }
 },
 ```
 
-- 实验室成员
+- 实验室成员 📄 `team.json`
+  - `slug`：这个是个人主页的路径，一般是姓名拼音加横杠，如 小红 `-> xiao-hong`，张三 `-> zhang-san`
+    - 那么小红的 中文个人主页在  `xxx.github.io/xiao-hong-zh` 下，英文个人主页在 `xxx.github.io/xiao-hong` 下
+    - 当姓名为同音字时，这个字段可以防止个人主页的路径有冲突。
+    - 或者不想用姓名，可以拿来自定义自己的个人主页路径。
+
 ```Json
 // 结构
 {
-    "name": "姓名",
-    "slug": "个人主页的路径",
-    "photo": "照片文件名(不需要.jpg这样的后缀，对应 images/team 下的照片文件名)",
-    "degree": "学位",
-    "links": [
-        { "name": "email", "link": "邮箱链接" },
-        { "name": "github", "link": "GitHub 链接" },
-        { "name": "google_scholar", "link": "谷歌学术链接" },
-        { "name": "homepage", "link": "个人主页链接" }
-    ],
-    "introduce": "自我介绍",
-    "education": [
-        {
-            "degree": "学位",
-            "year": "时间",
-            "major": "主修科目、学校情况等"
-        }
-    ],
-    "publication": [ // 就是前面的 📁 Publications
-        {
-            "title": "论文标题",
-            "authors": "论文作者，支持 Markdown",
-            "publication": "会议/期刊 信息，支持 Markdown",
-            "links": {
-                "paper": "论文链接",
-                "slides": "PPT 链接",
-                "code": "代码链接"
+    {
+        "name": {
+            "en": "姓名，英文",
+            "zh": "姓名，中文"
+        },
+        "slug": "个人主页的路径",
+        "photo": "照片的文件名（无扩展名），比如 xiao_hong，对应 src/assets/images/team/xiao_hong.jpg",
+        "degree": "当前学历，用于 team 页面的分类，可选的值只有 Faculty | Postdoc | PhD Student | MS Student",
+        "position": {
+            "en": "身份，比如 Professor",
+            "zh": "身份，比如 教授"
+        },
+        "links": [
+            { "type": "个人链接类型，支持下面这些", "url": "链接地址" },
+            { "type": "email", "url": "邮箱链接" },
+            { "type": "google_scholar", "url": "谷歌学术链接" },
+            { "type": "github", "url": "Github链接" },
+            { "type": "homepage", "url": "个人主页链接" },
+        ],
+        "about_me": {
+            "en": "自我介绍，英文",
+            "zh": "自我介绍，中文"
+        },
+        "education": {
+            "en": [
+                { "degree": "学历", "major": "主修科目、学校等", "period": "开始时间 - 结束时间" }
+            ],
+            "zh": [
+                { "degree": "学历", "major": "主修科目、学校等", "period": "开始时间 - 结束时间" }
+            ]
+        },
+        "publications": [ // 和上面 conference_papers.json 里面定义的结构一样
+            {
+                "title": "论文标题",
+                "authors": "论文作者，支持 Markdown",
+                "publication": "会议/期刊信息，支持 Markdown",
+                "links": [
+                    {"type": "链接类型，支持下面这些" "url": "链接地址"},
+                    {"type": "paper", "url": "https://github.com/shenzr"}, // 论文链接
+                    {"type": "slides", "url": "https://github.com/shenzr"}, // PPT 链接
+                    {"type": "code", "url": "https://github.com/shenzr"} // "代码链接"
+                ]
             }
+        ],
+        "major_awards": {
+            "en": [
+                "主要奖项，英文"
+            ],
+            "zh": [
+                "主要奖项，中文",
+            ]
         }
-    ],
-    "major_awards": ["获得的奖项数组"]
+    },
 }
 
 // 例子
 {
-    "name": "ZhiRong Shen",
-    "slug": "zhi-rong-shen", // 个人主页的路径就是 /team/zhi-rong-shen
-    "photo": "zhirong_shen", // (对应 images/team/zhirong_shen.jpg)
-    "degree": "Associate Professor",
-    "links": [
-        ["email", "mailto:shenzr@xmu.edu.cn"],
-        ["github", "https://github.com/shenzr"],
-        ["google_scholar", "https://scholar.google.com/scholar?q=shenzr"],
-        ["homepage", "https://shenzr.github.io"]
-    ],
-    "introduce": "I am now an associate professor of the School of Informatics at Xiamen University.\nMy current research interests include designing and building secure and dependable techniques for large-scale storage systems and data centers.",
-    "education": [
-        {
-            "degree": "Associate Professor",
-            "major": "In Data Centers, XiaMen University",
-            "year": "2023-2024"
+        "name": {
+            "en": "Ronglong Wu",
+            "zh": "吴镕龙"
         },
-        {
-            "degree": "Associate Professor",
-            "major": "In Data Centers, XiaMen University",
-            "year": "2023-2024"
+        "slug": "rong-long-wu",
+        "photo": "rong_long_wu",
+        "degree": "PhD Student",
+        "position": {
+            "en": "PhD student",
+            "zh": "博士生"
         },
-    ],
+        "links": [
+            { "type": "email", "url": "mailto:rlwoo@stu.xmu.edu.cn" }
+        ],
+        "about_me": {
+            "en": "I am Ronglong Wu, a first-year Ph.D. student at the School of Informatics, Xiamen University, advised by Prof. Zhirong Shen. I earned my B.S. degree from Xiamen University in 2021. My research focuses on building an efficient and reliable memory system.",
+            "zh": "我是吴镕龙，厦门大学信息学院的博士一年级学生，导师是沈志荣教授。我于2021年获得厦门大学的学士学位。我的研究方向是构建高效可靠的内存系统。"
+        },
+        "education": {
+            "en": [
+                { "degree": "Ph.D.", "major": "School of Informatics, Xiamen University", "period": "2024 - Present" },
+                { "degree": "M.S.", "major": "School of Informatics, Xiamen University", "period": "2021 - 2024" },
+                { "degree": "B.S.", "major": "School of Informatics, Xiamen University", "period": "2017 - 2021" }
+            ],
+            "zh": [
+                { "degree": "博士", "major": "厦门大学信息学院", "period": "2024 - 至今" },
+                { "degree": "硕士", "major": "厦门大学信息学院", "period": "2021 - 2024" },
+                { "degree": "学士", "major": "厦门大学信息学院", "period": "2017 - 2021" }
+            ]
+        },
+        "publications": [
+            {
+                "title": "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field",
+                "authors": "**Ronglong Wu**, Shuyue Zhou, Jiahao Lu, Zhirong Shen, Jiwu Shu, Zikang Xu, Kunlin Yang, Feilong Lin, Yiming Zhang",
+                "publication": "In Proceedings of 2024 USENIX Annual Technical Conference (**USENIX ATC'24**), July 10-12, 2024. (AR: 77/488=15.8%)",
+                "links": []
+            },
+            {
+                "title": "Mitigating Write Disturbance in Non-Volatile Memory via Coupling Machine Learning with Out-of-Place Updates",
+                "authors": "**Ronglong Wu**, Zhirong Shen, Zhiwei Yang, Jiwu Shu",
+                "publication": "In Proceedings of International Symposium on High-Performance Computer Architecture (**HPCA'24**), March 2-6, 2024. (AR: 75/410=18.3%)",
+                "links": []
+            },
+            {
+                "title": "Relieving Write Disturbance for Phase Change Memory with RESET-Aware Data Encoding",
+                "authors": "**Ronglong Wu**, Zhirong Shen, Chengshuo Zheng, Jianqiang Chen, Zhiwei Yang, Dmitrii Kaplun, and Jiwu Shu",
+                "publication": "Accepted to IEEE Transactions on Computers (**TC**).",
+                "links": []
+            }
+            
+        ],
+        "major_awards": {
+            "en": [
+                "IEEE HPCA Travel Grant, 2024",
+                "Outstanding Undergraduate Student, Xiamen University, 2021"
+            ],
+            "zh": [
+                "IEEE HPCA 2024会议旅行资助",
+                "厦门大学优秀本科生，2021年"
+            ]
+        }
+    },
+```
+
+## 5、注意事项 及 初始模版
+
+> 下面是模版，只能增加、置空，但不能删除，数据不足可能会发生错误
+>
+> 模版文件放在文件夹 templates 下，可以复制粘贴模版然后添加数据，或者复制已有的数据进行修改
+>
+> 有出问题找我 248619945@qq.com 😗
+
+- 📄 `news.json`
+
+```json
+{
+    "date": "",
+    "content": {
+        "en": "",
+        "zh": ""
+    }
+}
+```
+
+- 📄 `conference_papers.json` 和 📄 `journal_papers.json`
+
+```json
+{
+    "title": "",
+    "authors": "",
+    "publication": "",
+    "links": []
+}
+```
+
+- 📄 `alumni.json`
+
+```json
+{
+    "name": {
+      	"en": "",
+      	"zh": ""
+    },
+    "degree": {
+        "en": "",
+        "zh": ""
+    },
+    "date": "",
+    "first_job": {
+      	"en": "",
+      	"zh": ""
+    }
+}
+```
+
+- 📄 `team.json`
+
+```json
+{
+    "name": {
+        "en": "",
+        "zh": ""
+    },
+    "slug": "",
+    "photo": "",
+    "degree": "",
+    "position": {
+        "en": "",
+        "zh": ""
+    },
+    "links": [],
+    "about_me": {
+        "en": "",
+        "zh": ""
+    },
+    "education": {
+        "en": [],
+        "zh": []
+    },
     "publications": [
         {
-            "title": "UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy.",
-            "authors": "Yijie Zhong, Minqiang Zhou, [**Zhirong Shen**](https://shenzr.github.io/), Jiwu Shu",
-            "publication": "In Proceedings of 2024 USENIX Annual Technical Conference (**USENIX ATC'24**), July 10-12, 2024. (AR: 77/488=15.8%).",
-            "links": {
-                "paper": "https://github.com/shenzr",
-                "slides": "https://github.com/shenzr",
-                "code": "https://github.com/shenzr"
-            }
-        },
+            "title": "",
+            "authors": "",
+            "publication": "",
+            "links": []
+        }
     ],
-    "major_awards": [
-        "Nanqiang Younth Scholar (B), Xiamen University",
-        "Research Fellowship Scheme, The Chinese University of Hong Kong",
-        "Hong Kong Scholar Awardee"
-    ]
+    "major_awards": {
+        "en": [],
+        "zh": []
+    }
 }
 ```

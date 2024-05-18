@@ -1,0 +1,34 @@
+{
+    "name": {
+        "en": "",
+        "zh": ""
+    },
+    "slug": "",
+    "photo": "",
+    "degree": "",
+    "position": {
+        "en": "",
+        "zh": ""
+    },
+    "links": [],
+    "about_me": {
+        "en": "",
+        "zh": ""
+    },
+    "education": {
+        "en": [],
+        "zh": []
+    },
+    "publications": [
+        {
+            "title": "",
+            "authors": "",
+            "publication": "",
+            "links": []
+        }
+    ],
+    "major_awards": {
+        "en": [],
+        "zh": []
+    }
+}

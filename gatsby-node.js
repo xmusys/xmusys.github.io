@@ -1,111 +1,96 @@
 exports.createSchemaCustomization = ({ actions }) => {
     const { createTypes } = actions;
 
-    const teamType = [
-        "TeamFaluctyEnJson", 
-        "TeamFaluctyZhJson",
-        "TeamPostdocEnJson", 
-        "TeamPostdocZhJson",
-        "TeamPhdStudentsEnJson",
-        "TeamPhdStudentsZhJson",
-        "TeamMsStudentsEnJson",
-        "TeamMsStudentsZhJson",
-    ]
-
-    const paperType = [
-        "ConferencePapersJson",
-        "JournalPapersJson",
-    ]
-
-    const newsType = [
-        "NewsEnJson",
-        "NewsZhJson",
-    ]
-
     const typeDefs = `
-        interface News implements Node {
+        type StringLang implements Node {
+            en: String
+            zh: String
+        }
+
+        type StringArrayLang implements Node {
+            en: [String]
+            zh: [String]
+        }
+
+        type EducationLang implements Node {
+            en: [Education]
+            zh: [Education]
+        }
+
+        type Link implements Node {
+            type: String
+            url: String
+        }
+
+        type Publication implements Node {
+            title: String
+            authors: String
+            publication: String
+            links: [Link]
+        }
+
+        interface Paper implements Node {
             id: ID!
-            date: String
-            content: String
+            title: String
+            authors: String
+            publication: String
+            links: [Link]
         }
 
         type Education implements Node {
             degree: String
             major: String
-            year: String
+            period: String
         }
 
-        type PublicationLinks implements Node {
-            paper: String
-            slides: String
-            code: String
-        }
-
-        interface Publication implements Node {
-            id: ID!
-            title: String
-            authors: String
-            publication: String
-            links: PublicationLinks
-        }
-
-        type MemberLink implements Node {
-            name: String
-            link: String
-        }
-
-        interface TeamMember implements Node {
-            id: ID!
-            name: String
+        type TeamJson implements Node {
+            name: StringLang
             slug: String
             photo: String
             degree: String
-            links: [MemberLink]
-            introduce: String
-            education: [Education]
+            position: StringLang
+            links: [Link]
+            about_me: StringLang
+            education: EducationLang
             publications: [Publication]
-            major_awards: [String]
+            major_awards: StringArrayLang
+            
+        }
+
+        type AlumniJson implements Node {
+            name: StringLang
+            degree: StringLang
+            date: String
+            first_job: StringLang
+        }
+
+        type ConferencePapersJson implements Node {
+            name: String
+        }
+
+        type ConferencePapersJson implements Paper {
+            title: String
+            authors: String
+            publication: String
+            links: [Link]
+        }
+
+        type JournalPapersJson implements Node {
+            name: String
+        }
+
+        type JournalPapersJson implements Paper {
+            title: String
+            authors: String
+            publication: String
+            links: [Link]
+        }
+
+        type NewsJson implements Node {
+            date: String
+            content: StringLang
         }
     `
-    + teamType.map(type => `
-        type ${type} implements Node {
-            name: String
-        }
 
-        type ${type} implements TeamMember {
-            name: String
-            slug: String
-            photo: String
-            degree: String
-            links: [MemberLink]
-            introduce: String
-            education: [Education]
-            publications: [Publication]
-            major_awards: [String]
-        }
-    `).join('\n')
-    + paperType.map(type => `
-        type ${type} implements Node {
-            name: String
-        }
-
-        type ${type} implements Publication {
-            title: String
-            authors: String
-            publication: String
-            links: PublicationLinks
-        }
-    `).join('\n');
-    + newsType.map(type => `
-        type ${type} implements Node {
-            name: String
-        }
-
-        type ${type} implements News {
-            date: String
-            content: String
-        }
-    `).join('\n');
-  
     createTypes(typeDefs);
   };

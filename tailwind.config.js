@@ -18,6 +18,9 @@ module.exports = {
           70: "#4D77AB",
           10: "#E6EBF3",
         },
+        "xmu-yellow": {
+          100: "#EDC78E",
+        }
       },
       screens: {
         "ml": "896px",

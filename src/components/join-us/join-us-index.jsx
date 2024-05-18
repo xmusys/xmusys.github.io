@@ -11,9 +11,9 @@ import JoinUsEnMdx from "../../assets/data/join_us/join_us_en.mdx"
 import JoinUsZhMdx from "../../assets/data/join_us/join_us_zh.mdx"
 
 /**
- * 加入我们页面 - 入口组件
+ * 加入我们页面入口
  * 
- * @returns {React.ReactNode} 加入我们页面 - 入口组件
+ * @returns {React.ReactNode}
  */
 export default function JoinUsIndex() {
     const lang = useContext(LangContext)

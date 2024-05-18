@@ -6,9 +6,9 @@ import HomeIntro from "./home-intro"
 
 
 /**
- * 首页页面 - 入口组件
+ * 首页页面入口
  * 
- * @returns {React.ReactNode} 首页页面 - 入口组件
+ * @returns {React.ReactNode}
  */
 export default function HomeIndex() {
     return (

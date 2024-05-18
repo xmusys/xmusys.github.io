@@ -3,331 +3,203 @@
         "title": "UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy.",
         "authors": "Yijie Zhong, Minqiang Zhou, **Zhirong Shen**, Jiwu Shu",
         "publication": "In Proceedings of 2024 USENIX Annual Technical Conference (**USENIX ATC'24**), July 10-12, 2024. (AR: 77/488=15.8%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": [
+            {"type": "paper", "url": "https://github.com/shenzr"},
+            {"type": "slides", "url": ""},
+            {"type": "code", "url": ""}
+        ]
     },
     {
         "title": "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field.",
         "authors": "Ronglong Wu, Shuyue Zhou, Jiahao Lu, **Zhirong Shen**, Yiming Zhang, Zikang Xu, Kunlin Yang, Feilong Lin, Jiwu Shu",
         "publication": "In Proceedings of 2024 USENIX Annual Technical Conference (**USENIX ATC'24**), July 10-12, 2024. (AR: 77/488=15.8%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "ZUFS: Enhancing Stability and Endurance in Mobile Devices with Integrated Zoned Namespaces in Universal Flash Storage.",
         "authors": "Pengbo Yan, Bohong Zhu, **Zhirong Shen**, Jiwu Shu",
         "publication": "In Proceedings of the 24th IEEE/ACM international Symposium on Cluster, Cloud and Internet Computing (**CCGRID'24**), May 6-9, 2024.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Mitigating Write Disturbance in Non-Volatile Memory via Coupling Machine Learning with Out-of-Place Updates.",
         "authors": "Ronglong Wu, **Zhirong Shen**, Zhiwei Yang, Jiwu Shu",
         "publication": "In Proceedings of International Symposium on High-Performance Computer Architecture (**HPCA'24**), March 2-6, 2024. (AR: 75/410=18.3%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "CCFlash: A Correlation-Aware Compression Approach in Flash Memory.",
         "authors": "Jianqiang Chen, Qiongxia Huang, Jiebin Zhai, **Zhirong Shen**",
         "publication": "In Proceedings of the 38th ACM/SIGAPP Symposium On Applied Computing (**SAC'23**), March 27-31, 2023.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Redesigning High-Performance LSM-based Key-Value Stores with Persistent CPU Caches.",
         "authors": "Yijie Zhong, **Zhirong Shen**, Zixiang Yu, Jiwu Shu",
         "publication": "In Proceedings of the 39th IEEE International Conference on Data Engineering (**ICDE'23**), April 3-7, 2023.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Accelerating Garbage Collection of 3D Flash Memory via Exploiting Inter-Channel Parallelism.",
         "authors": "Hongbin Gong, **Zhirong Shen**, Jiwu Shu",
         "publication": "In Proceedings of the 40th IEEE International Conference on Computer Design (**ICCD'22**), October 23-26, 2022.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Accelerating Sub-Block Erase in 3D NAND Flash Memory.",
         "authors": "Hongbin Gong, **Zhirong Shen**, Jiwu Shu",
         "publication": "In Proceedings of the 39th IEEE International Conference on Computer Design (**ICCD'21**), October 24-27, 2021. (AR: 60/246 = 24.4%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "SimiEncode: A Similarity-based Encoding Scheme to Improve Performance and Lifetime of Non-Volatile Main Memory.",
         "authors": "Suzhen Wu, Jiapeng Wu, **Zhirong Shen**, Zhihao Zhang, Zuocheng Wang, Bo Mao",
         "publication": "In Proceedings of the 39th IEEE International Conference on Computer Design (**ICCD'21**), October 24-27, 2021. (AR: 60/246 = 24.4%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Boosting Full-Node Repair in Erasure-Coded Storage.",
         "authors": "Shiyao Lin, Guowen Gong, **Zhirong Shen**, Patrick P. C. Lee, Jiwu Shu",
         "publication": "In Proceedings of 2021 USENIX Annual Technical Conference (**USENIX ATC'21**), July 14-16, 2021. (AR: 64/341 = 18.8%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "When Delta Sync Meets Message-Locked Encryption: a Feature-based Delta Sync Scheme for Encrypted Cloud Storage.",
         "authors": "Suzhen Wu, Zhanhong Tu, Zuocheng Wang, **Zhirong Shen**, Bo Mao",
         "publication": "In Proceedings of the 41st IEEE International Conference on Distributed Computing Systems (**ICDCS'21**), July 7-10, 2021. (AR: 97/489 = 19.8%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "CAGC: A Content-aware Garbage Collection Scheme for Ultra-Low Latency Flash-based SSDs.",
         "authors": "Suzhen Wu, Chunfeng Du, Haijun Li, Hong Jiang, **Zhirong Shen**, Bo Mao",
         "publication": "In Proceedings of 35th IEEE International Parallel & Distributed Processing Symposium (**IPDPS'21**), May 17-21 2021.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Optimal Rack-Coordinated Updates in Erasure-Coded Data Centers.",
         "authors": "Guowen Gong, **Zhirong Shen**, Suzhen Wu, Xiaolu Li, Patrick P. C. Lee",
         "publication": "In Proceedings of IEEE International Conference on Computer Communications (**INFOCOM'21**), May 2021. (AR: 252/1266 = 19.9%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "EAD: a Collision-free and High Performance ECC assisted Deduplication Scheme for Flash Storage.",
         "authors": "Suzhen Wu, Jindong Zhou, Weidong Zhu, Hong Jiang, Zhijie Huang, **Zhirong Shen**, Bo Mao",
         "publication": "In Proceedings of the 38th IEEE International Conference on Computer Design (**ICCD'20**), Oct. 18-21, 2020, Hartford, Connecticut, USA. (AR: 62/221 = 28.1%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Enabling I/O-Efficient Redundancy Transitioning in Erasure-Coded KV Stores via Elastic Reed-Solomon Codes.",
         "authors": "Si Wu, **Zhirong Shen**, Patrick P. C. Lee",
         "publication": "In Proceedings of the 39th International Symposium on Reliable Distributed Systems (**SRDS'20**), Sep. 21-24, 2020, Shanghai, China. (AR: 32/131 = 24.4%) Prof. C. V. Ramamoorthy Best Paper Award",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "BitFlip: A Bit-Flipping Scheme for Reducing Read Latency and Improving Reliability of Flash Memory.",
         "authors": "Suzhen Wu, Sijie Lan, Jindong Zhou, Hong Jiang, **Zhirong Shen**",
         "publication": "In Proceedings of the 36th International Conference on Massive Storage Systems and Technology (**MSST'20**), October, 2020, USA.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Toward Adaptive Disk Failure Prediction via Stream Mining.",
         "authors": "Shujie Han, Patrick P. C. Lee, **Zhirong Shen**, Cheng He, Yi Liu, Tao Huang",
         "publication": "In Proceedings of the 40th IEEE International Conference on Distributed Computing Systems (**ICDCS'20**), July 8-10, 2020, Singapore. (AR: 105/584 = 18.5%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Optimal Encoding and Decoding Algorithms for the RAID-6 Liberation Codes.",
         "authors": "Zhijie Huang, Hong Jiang, **Zhirong Shen**, Hao Chen, Nong Xiao, Ning Li",
         "publication": "In Proceedings of the 34th IEEE International Parallel and Distributed Processing Symposium (**IPDPS'20**), May 18-22, 2020, New Orleans, Louisiana, USA.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "ClusterSR: Cluster-Aware Scattered Repair in Erasure-Coded Storage.",
         "authors": "**Zhirong Shen**, Jiwu Shu, Zhijie Huang, Yingxun Fu",
         "publication": "In Proceedings of the 34th IEEE International Parallel and Distributed Processing Symposium (**IPDPS'20**), May 18-22, 2020, New Orleans, Louisiana, USA.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "On the Optimal Repair-Scaling Trade-off in Locally Repairable Codes.",
         "authors": "Si Wu, **Zhirong Shen**, Patrick P. C. Lee",
         "publication": "In Proceedings of IEEE International Conference on Computer Communications (**INFOCOM'20**), April 27-30, 2020, Beijing, China. (AR: 268/1354=19.8%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Fast Predictive Repair in Erasure-Coded Storage.",
         "authors": "**Zhirong Shen**, Xiaolu Li, Patrick P. C. Lee",
         "publication": "In Proceedings of the 49th IEEE/IFIP International Conference on Dependable Systems and Networks (**DSN'19**), June 24-27, 2019, Oregon, USA. (AR: 54/252=21.4%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Parity-Only Caching for Robust Straggler Tolerance.",
         "authors": "Mi Zhang, Qiuping Wang, **Zhirong Shen**, Patrick P. C. Lee",
         "publication": "In Proceedings of the 35th International Conference on Massive Storage Systems and Technology (**MSST'19**), May 20-24, 2019, Santa Clara, USA.",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Cross-Rack-Aware Updates in Erasure-Coded Data Centers.",
         "authors": "**Zhirong Shen**, Patrick P. C. Lee",
         "publication": "In Proceedings of the 47th International Conference on Parallel Processing (**ICPP'18**), Aug. 13-16, 2018, Oregon, USA. (AR: 91/313=29.1%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Correlation-Aware Stripe Organization for Efficient Writes in Erasure-Coded Storage Systems.",
         "authors": "**Zhirong Shen**, Patrick P. C. Lee, Jiwu Shu, Wenzhong Guo",
         "publication": "In Proceedings of the 36th International Symposium on Reliable Distributed Systems (**SRDS'17**), Sep. 26-29, 2017, Hong Kong, China.(AR: 24/72=33.3%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Encoding-Aware Data Placement for Efficient Degraded Reads in XOR-Coded Storage Systems.",
         "authors": "**Zhirong Shen**, Patrick P. C. Lee, Jiwu Shu, Wenzhong Guo",
         "publication": "In Proceedings of the 35th International Symposium on Reliable Distributed Systems (**SRDS'16**), Sep. 26-29, 2016, Budapest, Hungary.(AR: 29/83=34.9%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Efficient Routing for Cooperative Data Regeneration in Heterogeneous Storage Networks.",
         "authors": "**Zhirong Shen**, Patrick P. C. Lee, Jiwu Shu",
         "publication": "In Proceedings of the 24th IEEE/ACM Symposium on Quality of Service (**IWQoS'16**), Jun. 20-21, Beijing, China. (AR: 27/131=20.6%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Reconsidering Single Failure Recovery in Clustered File Systems.",
         "authors": "**Zhirong Shen**, Jiwu Shu, Patrick P. C. Lee",
         "publication": "In Proceedings of the 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (**DSN'16**), Jun. 28-Jul. 1, 2016, Toulouse, France. (AR: 58/259=22.4%)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Seek-Efficient I/O Optimization in Single Failure Recovery for XOR-Coded Storage Systems.",
         "authors": "**Zhirong Shen**, Jiwu Shu, Yingxun Fu",
         "publication": "In Proceedings of the 34th International Symposium on Reliable Distributed Systems (**SRDS'15**), Sep. 28-Oct. 1, 2015, Montreal, Canada. Best Paper Nominee",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "EC-FRM: A Novel Erasure Coding Framework to Speed up Reads for Erasure Coded Cloud Storage Systems.",
         "authors": "Yingxun Fu, Jiwu Shu, **Zhirong Shen**",
         "publication": "In Proceedings of the 44th Annual Conference 2015 International Conference on Parallel Processing (**ICPP'15**), Sep. 1-4, 2015, Beijing, China",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "HV Code: An All-around MDS Code to Improve Efficiency and Reliability of RAID-6 Systems.",
         "authors": "**Zhirong Shen**, Jiwu Shu",
         "publication": "In Proceedings of the 44th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (**DSN'14**), Jun. 23-26, 2014, Atlanta, USA",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Keyword Search with Access Control over Encrypted Data in Cloud Computing.",
         "authors": "**Zhirong Shen**, Jiwu Shu, Wei Xue",
         "publication": "In Proceedings of the 22nd IEEE/ACM Symposium on Quality of Service (**IWQoS'14**), May 26-27, 2014, Hong Kong, China",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Preferred Keyword Search over Encrypted Data in Cloud Computing.",
         "authors": "**Zhirong Shen**, Jiwu Shu, Wei Xue",
         "publication": "In Proceedings of the 21st IEEE/ACM International Symposium on Quality of Service (**IWQoS'13**), Jun. 3-4, 2013, Montreal, Canada",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     },
     {
         "title": "Secure Storage Systems and Key Technologies.",
         "authors": "Jiwu Shu, **Zhirong Shen**, Wei Xue, Yingxun Fu",
         "publication": "In Proceedings of the 18th Asia and South Pacific Design Automation Conference (**ASP-DAC'13**), Jan. 22-25, 2013, Pacifico Yokohama, Yokohama, Japan. (Invited Paper)",
-        "links": {
-            "paper": "https://github.com/shenzr",
-            "slides": "https://github.com/shenzr",
-            "code": "https://github.com/shenzr"
-        }
+        "links": []
     }
 
 ]

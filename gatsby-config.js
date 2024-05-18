@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `ERAS Group`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `ERAS Research Group`,
+    siteUrl: `https://github.io/xmusys/xmusys.github.io/`,
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -16,7 +16,6 @@ module.exports = {
     `gatsby-plugin-mdx`,
     `gatsby-transformer-remark`,
 
-    `gatsby-transformer-yaml`,
     `gatsby-transformer-json`,
 
     {

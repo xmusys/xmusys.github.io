@@ -8,25 +8,25 @@ import CatogaryMenu from "../common-page/catogary-menu"
 import MemberCatogarys from "./member-catogarys"
 
 const allLangCatogaries = {
-    "en": ["All Members", "Faculty", "Postdoc", "PhD Students", "MS Students", "Alumni"],
+    "en": ["All Members", "Faculty", "Postdoc", "PhD Student", "MS Student", "Alumni"],
     "zh": ["全部成员", "导师", "博士后", "博士生", "硕士生", "校友"]
 }
 
 /**
- * 团队页面 - 入口组件
+ * 团队页面入口
  * 
- * @returns - 团队页面 - 入口组件
+ * @returns - 团队页面入口
  */
 export default function TeamIndex() {
     const lang = useContext(LangContext)
     const allCatogaries = allLangCatogaries[lang]
-    const [currentCatogry, setCurrentCatogary] = useState(allCatogaries[0])
+    const [currentIndex, setCurrentIndex] = useState(0)
 
     return (
         <Layout>
             <div className="sm:px-8 py-9 space-y-2">
-                <CatogaryMenu allCatogaries={allCatogaries} currentCatogry={currentCatogry} setCurrentCatogary={setCurrentCatogary}></CatogaryMenu>
-                <MemberCatogarys allCatogaries={allCatogaries} currentCatogry={currentCatogry}></MemberCatogarys>
+                <CatogaryMenu allCatogaries={allCatogaries} currentIndex={currentIndex} setCurrentIndex={setCurrentIndex}></CatogaryMenu>
+                <MemberCatogarys allCatogaries={allCatogaries} currentIndex={currentIndex}></MemberCatogarys>
             </div>
         </Layout>
     )

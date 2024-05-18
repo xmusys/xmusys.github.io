@@ -12,9 +12,10 @@ import { LangContext } from "../../contexts/lang-context"
  * @returns {React.ReactNode} - 实验室Logo
  */
 function Logo() {
+    const target = useLocation().pathname.match(/^.+zh/) ? "/home-zh" : "/"
     return (
-        <Link to="/" className="text-2xl tracking-wide hover:text-yellow-200 hover:shadow transition-colors duration-300">
-            ERAS Group
+        <Link to={target} className="text-2xl tracking-wide hover:text-xmu-yellow-100 hover:shadow transition-colors duration-300">
+            ERAS Research Group
         </Link>
     )
 }
@@ -93,8 +94,8 @@ function NavItems() {
     const lang = useContext(LangContext)    
     const location = useLocation()
     const currentPath = location.pathname
-    const enPath = currentPath === "/home-zh/" ? "/" : currentPath.startsWith("\/team-zh\/") ? currentPath.replace("team-zh", "team") : currentPath.replace(/-zh/, "")
-    const zhPath = currentPath === "/" ? "/home-zh/" : currentPath.startsWith("\/team\/") ? currentPath.replace("team", "team-zh") : currentPath.slice(0, -1).concat("-zh/")
+    const enPath = currentPath === "/home-zh/" ? "/"  : currentPath.slice(0, -4).concat("/")
+    const zhPath = currentPath === "/" ? "/home-zh/" : currentPath.slice(0, -1).concat("-zh/")
 
     const navItems = (lang === "en" ? [
         ["Home", "/"],
