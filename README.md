@@ -579,10 +579,10 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 - 支持部分（大段的文字都支持）
   - **Home、 Join Us、Research**
   - 新闻的 **内容**
-  - 论文的 **作者、会议/期刊信息** 
+  - 论文的 **作者、会议/期刊信息**
   - 成员的 **自我介绍、论文(作者、会议/期刊信息)、主要奖项**
 - 常用用法
-  - 链接：`[San Zhang](zhang-san)` / `[张三](zhang-san-zh)`（链接到个人主页）
+  - 链接：`[San Zhang](/zhang-san)` / `[张三](/zhang-san-zh)`（链接到个人主页，记得在前面加斜杠）
   - 斜体：`*ERAS Research Group*` 
   - 粗体：`**Author: Zhang San**` （论文作者加粗）
   - 标题：`# Welcome to ERAS Research Group`
