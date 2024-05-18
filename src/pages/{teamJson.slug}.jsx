@@ -29,7 +29,6 @@ export default function MemberEnPage({ data }) {
 export const query = graphql`
     query ($id: String) {
         teamJson(id: {eq: $id}) {
-            
                     id
                     name {
                         en

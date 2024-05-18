@@ -10,7 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
  * {name: string, slug: string, photo: string, degree: string, links: {type: string, url: string}[]}[],
  * {name: string, slug: string, photo: string, degree: string, links: {type: string, url: string}[]}[],
  * {name: string, slug: string, photo: string, degree: string, links: {type: string, url: string}[]}[],
- * {name: string, degree: string, date: string, first_job: string}[]
+ * {name: string, degree: string, year: string, first_job: string}[]
  * ]}
  */
 export default function useTeamData(lang) {
@@ -44,7 +44,7 @@ export default function useTeamData(lang) {
                         en
                         zh
                     }
-                    date
+                    year
                     first_job {
                         en
                         zh
@@ -66,7 +66,7 @@ export default function useTeamData(lang) {
     sortData[5] = data.allAlumniJson.edges.map(({ node }) => ({
         name: node.name[lang],
         degree: node.degree[lang],
-        date: node.date,
+        year: node.year,
         first_job: node.first_job[lang]
     }))
 

@@ -60,7 +60,7 @@ exports.createSchemaCustomization = ({ actions }) => {
         type AlumniJson implements Node {
             name: StringLang
             degree: StringLang
-            date: String
+            year: String
             first_job: StringLang
         }
 

@@ -112,7 +112,7 @@ function TopSection({ data }) {
                     {data.position}
                 </div>
                 <div className="text-sm sm:text-base leading-6 sm:leading-8 text-pretty">
-                    {lang === "en" ? <Link to="/">ERAS Research Group &nbsp; XiaMen University</Link> : <Link to="/home-zh">厦门大学 ERAS 研究小组</Link>}
+                    {lang === "en" ? <Link to="/">ERAS Research Group &nbsp; Xiamen University</Link> : <Link to="/home-zh">厦门大学 ERAS 研究小组</Link>}
                 </div>
                 <div className="">
                     <MemberLinks links={data.links}></MemberLinks>

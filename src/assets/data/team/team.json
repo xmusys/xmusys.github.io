@@ -250,18 +250,16 @@
             { "type": "email", "url": "mailto:rlwoo@stu.xmu.edu.cn" }
         ],
         "about_me": {
-            "en": "I am Ronglong Wu, a first-year Ph.D. student at the School of Informatics, Xiamen University, advised by Prof. Zhirong Shen. I earned my B.S. degree from Xiamen University in 2021. My research focuses on building an efficient and reliable memory system.",
-            "zh": "我是吴镕龙，厦门大学信息学院的博士一年级学生，导师是沈志荣教授。我于2021年获得厦门大学的学士学位。我的研究方向是构建高效可靠的内存系统。"
+            "en": "I am Ronglong Wu, a Ph.D. student at the School of Informatics, Xiamen University, advised by Prof. Zhirong Shen. I earned my B.S. degree from Xiamen University in 2021. My research focuses on building an efficient and reliable memory system.",
+            "zh": "我是吴镕龙，厦门大学信息学院的博士生，导师是沈志荣教授。我于2021年获得厦门大学的学士学位。我的研究方向是构建高效可靠的内存系统。"
         },
         "education": {
             "en": [
-                { "degree": "Ph.D.", "major": "School of Informatics, Xiamen University", "period": "2024 - Present" },
-                { "degree": "M.S.", "major": "School of Informatics, Xiamen University", "period": "2021 - 2024" },
+                { "degree": "M.S - Ph.D.", "major": "School of Informatics, Xiamen University", "period": "2021 - Present" },
                 { "degree": "B.S.", "major": "School of Informatics, Xiamen University", "period": "2017 - 2021" }
             ],
             "zh": [
-                { "degree": "博士", "major": "厦门大学信息学院", "period": "2024 - 至今" },
-                { "degree": "硕士", "major": "厦门大学信息学院", "period": "2021 - 2024" },
+                { "degree": "硕士 - 博士", "major": "厦门大学信息学院", "period": "2021 - 至今" },
                 { "degree": "学士", "major": "厦门大学信息学院", "period": "2017 - 2021" }
             ]
         },

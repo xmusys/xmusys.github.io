@@ -103,14 +103,14 @@ function NavItems() {
         ["Research", "/research"],
         ["Publications", "/publications"],
         ["Join Us", "/join-us"],
-        ["ZH", zhPath]
+        ["中文", zhPath]
     ] : [
         ["首页", "/home-zh"],
         ["团队成员", "/team-zh"],
         ["研究领域", "/research-zh"],
         ["发表论文", "/publications-zh"],
         ["加入我们", "/join-us-zh"],
-        ["英文", enPath]
+        ["English", enPath]
     ]).map(([title, target]) => ({ title, target }))
 
     return (
