@@ -14,7 +14,8 @@
 
 ## 🗂目录结构 
 
-> 这里是存放数据的目录，总体分为 **介绍、新闻、论文、成员、图片** 五个部分，还有 **注意事项**
+> **`src/assets`** 这里是存放数据的目录，目录结构如下，
+> 后面的介绍分为 **目录结构** 和 **介绍、新闻、论文、成员、图片** 五个部分，还有最后 **注意事项**
 
 - 📁 `assets` - `数据根目录`
   - 📁 `images` - `图片`
@@ -290,11 +291,11 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 
 >`slug`：这个是个人主页的路径，一般是姓名拼音加横杠，如 小红 `-> xiao-hong`，张三 `-> zhang-san`
 >
->- 那么小红的 中文个人主页在  `xxx.github.io/xiao-hong-zh` 下，英文个人主页在 `xxx.github.io/xiao-hong` 下
+>- 那么小红的 中文个人主页在  `xmusys.github.io/xiao-hong-zh` 下，英文个人主页在 `xmusys.github.io/xiao-hong` 下
 >- 当姓名为同音字时，这个字段可以防止个人主页的路径有冲突。
 >- 或者不想用姓名，可以拿来自定义自己的个人主页路径
 >
->`publications`：结构同上面的 `4、Publications`
+>`publications`：结构同上面的 `3、Publications`
 
 - 初始模版
 
@@ -343,7 +344,7 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
         "en": "姓名，英文",
         "zh": "姓名，中文"
     },
-    "slug": "个人主页的路径",
+    "slug": "个人主页的路径, 看上面的介绍，或者最后的注意事项也有具体介绍",
     "photo": "照片的文件名（无扩展名），比如 xiao_hong，对应 src/assets/images/team/xiao_hong.jpg",
     "degree": "当前学历，用于 team 页面的分类，可选的值只有 Faculty | Postdoc | PhD Student | MS Student",
     "position": {
@@ -579,10 +580,10 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 - 支持部分（大段的文字都支持）
   - **Home、 Join Us、Research**
   - 新闻的 **内容**
-  - 论文的 **作者、会议/期刊信息** 
+  - 论文的 **作者、会议/期刊信息**
   - 成员的 **自我介绍、论文(作者、会议/期刊信息)、主要奖项**
 - 常用用法
-  - 链接：`[San Zhang](zhang-san)` / `[张三](zhang-san-zh)`（链接到个人主页）
+  - 链接：`[San Zhang](/zhang-san)` / `[张三](/zhang-san-zh)`（链接到个人主页，记得在前面加斜杠）
   - 斜体：`*ERAS Research Group*` 
   - 粗体：`**Author: Zhang San**` （论文作者加粗）
   - 标题：`# Welcome to ERAS Research Group`
