@@ -290,7 +290,7 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 
 >`slug`：这个是个人主页的路径，一般是姓名拼音加横杠，如 小红 `-> xiao-hong`，张三 `-> zhang-san`
 >
->- 那么小红的 中文个人主页在  `xxx.github.io/xiao-hong-zh` 下，英文个人主页在 `xxx.github.io/xiao-hong` 下
+>- 那么小红的 中文个人主页在  `xmusys.github.io/xiao-hong-zh` 下，英文个人主页在 `xmusys.github.io/xiao-hong` 下
 >- 当姓名为同音字时，这个字段可以防止个人主页的路径有冲突。
 >- 或者不想用姓名，可以拿来自定义自己的个人主页路径
 >
@@ -343,7 +343,7 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
         "en": "姓名，英文",
         "zh": "姓名，中文"
     },
-    "slug": "个人主页的路径",
+    "slug": "个人主页的路径, 看上面的介绍，或者最后的注意事项也有具体介绍",
     "photo": "照片的文件名（无扩展名），比如 xiao_hong，对应 src/assets/images/team/xiao_hong.jpg",
     "degree": "当前学历，用于 team 页面的分类，可选的值只有 Faculty | Postdoc | PhD Student | MS Student",
     "position": {
