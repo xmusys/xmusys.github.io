@@ -24,7 +24,7 @@ export default function HomeCarousel() {
     `)
     
     return (
-        <div className="w-11/12 py-2 mx-auto aspect-video">
+        <div className="w-5/6 py-2 mx-auto aspect-video">
             <Carousel>
             {
                 data.allFile.nodes.map((fileNode) => {
