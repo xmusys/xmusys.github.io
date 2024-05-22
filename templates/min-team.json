@@ -19,14 +19,10 @@
         "en": [],
         "zh": []
     },
-    "publications": [
-        {
-            "title": "",
-            "authors": "",
-            "publication": "",
-            "links": []
-        }
-    ],
+    "publications": {
+        "group": [],
+        "personal": []
+    },
     "major_awards": {
         "en": [],
         "zh": []

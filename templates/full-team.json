@@ -1,0 +1,46 @@
+{
+    "name": {
+        "en": "",
+        "zh": ""
+    },
+    "slug": "",
+    "photo": "",
+    "degree": "",
+    "position": {
+        "en": "",
+        "zh": ""
+    },
+    "links": [
+        { "type": "email", "url": "" },
+        { "type": "google_scholar", "url": "" },
+        { "type": "github", "url": "" },
+        { "type": "homepage", "url": "" }
+    ],
+    "about_me": {
+        "en": "",
+        "zh": ""
+    },
+    "education": {
+        "en": [],
+        "zh": []
+    },
+    "publications": {
+        "group": [],
+        "personal": [
+            {
+                "title": "",
+                "authors": "",
+                "publication": "",
+                "links": [
+                    { "type": "paper", "url": "" },
+                    { "type": "slides", "url": "" },
+                    { "type": "code", "url": "" }
+                ]
+            }
+        ]
+    },
+    "major_awards": {
+        "en": [],
+        "zh": []
+    }
+}
