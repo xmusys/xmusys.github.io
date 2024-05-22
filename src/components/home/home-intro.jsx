@@ -16,8 +16,8 @@ export default function HomeIntro() {
     const lang = useContext(LangContext)
     
     return (
-        <div className={`ml:w-2/3 py-6 flex flex-col gap-3 leading-7
-                        [&_h1]:text-gray-900 [&_h1]:text-[2rem] [&_h1]:font-[600] [&_h1]:leading-8
+        <div className={`ml:w-2/3 pt-8 flex flex-col gap-3 leading-${lang === "en" ? "7" : "8"}
+                        [&_h1]:text-gray-900 [&_h1]:text-[2rem] [&_h1]:font-[600] [7&_h1]:leading-8
                         [&_p]:text-gray-800
                         [&_strong]:text-gray-900 [&_strong]:font-semibold
                         `}>
