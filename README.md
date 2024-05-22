@@ -1,6 +1,6 @@
 # ERAS Research Group 
 
->  *Efficient, Reliable, and Advanced Storage Research Group. 🚀* 
+*Efficient, Reliable, and Advanced Storage Research Group. 🚀* 
 
 ---
 
