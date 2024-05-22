@@ -20,15 +20,24 @@
             "zh": "我现在是厦门大学信息学院的副教授。我获得了电子科技大学数学与应用数学学士学位，清华大学计算机科学博士学位。我曾在香港中文大学计算机科学与工程系做博士后研究员。\n我的研究兴趣包括设计和构建大规模存储系统和数据中心的安全可靠技术。"
         },
         "education": {
-            "en": [],
-            "zh": []
+            "en": [
+                { "degree": "Ph.D.", "major": "Computer Science, Tsinghua University", "period": "2010.9 - 2016.1" },
+                { "degree": "B.S.", "major": "Mathematics and Applied Mathematics, UESTC", "period": "2006.9 - 2010.7" }
+            ],
+            "zh": [
+                { "degree": "博士", "major": "计算机科学，清华大学", "period": "2010.9 - 2016.1" },
+                { "degree": "学士", "major": "数学与应用数学，电子科技大学", "period": "2006.9 - 2010.7" }
+            ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [
                 "Nanqiang Younth Scholar (B), Xiamen University",
                 "Research Fellowship Scheme, The Chinese University of Hong Kong",
-                "Hong Kong Scholar Awardee (**only 60 awardees for Mainland & Hong Kong Joint Postdoctoral Fellows Program**)"
+                "Hong Kong Scholar Awardee (only 60 awardees for Mainland & Hong Kong Joint Postdoctoral Fellows Program)"
             ],
             "zh": [
                 "厦门大学南强青年学者（B）",
@@ -66,38 +75,41 @@
                 { "degree": "学士", "major": "计算机科学与技术，福州大学", "period": "2012 - 2016" }
             ]
         },
-        "publications": [
-            {
-                "title": "Capacity-Aware Wash Optimization with Dynamic Fluid Scheduling and Channel Storage for Continuous-Flow Microfluidic Biochips",
-                "authors": "**Chen Z**, Hu X, Guo W, et al.",
-                "publication": "ACM Transactions on Design Automation of Electronic Systems, 2024.",
-                "links": []
-            },
-            {
-                "title": "Application Mapping and Control-system Design for Microfluidic Biochips with Distributed Channel Storage",
-                "authors": "**Chen Z**, Guo W, Liu G, et al.",
-                "publication": "ACM Transactions on Design Automation of Electronic Systems, 2022, 28(2): 1-30.",
-                "links": []
-            },
-            {
-                "title": "Physical synthesis of flow-based microfluidic biochips considering distributed channel storage",
-                "authors": "**Chen Z**, Huang X, Guo W, et al.",
-                "publication": "In Proceedings of the 2019 Design, Automation & Test in Europe Conference & Exhibition (DATE), IEEE, 2019: 1525-1530.",
-                "links": []
-            },
-            {
-                "title": "Flow-based microfluidic biochips with distributed channel storage: Synthesis, physical design, and wash optimization",
-                "authors": "Huang X, Guo W, **Chen Z**, et al.",
-                "publication": "IEEE Transactions on Computers, 2021, 71(2): 464-478.",
-                "links": []
-            },
-            {
-                "title": "A unified algorithm based on HTS and self-adapting PSO for the construction of octagonal and rectilinear SMT",
-                "authors": "Liu G, **Chen Z**, Zhuang Z, et al.",
-                "publication": "Soft Computing, 2020, 24: 3943-3961.",
-                "links": []
-            }
-        ],
+        "publications": {
+            "group": [],
+            "personal": [
+                {
+                    "title": "Capacity-Aware Wash Optimization with Dynamic Fluid Scheduling and Channel Storage for Continuous-Flow Microfluidic Biochips",
+                    "authors": "**Chen Z**, Hu X, Guo W, et al.",
+                    "publication": "ACM Transactions on Design Automation of Electronic Systems, 2024.",
+                    "links": []
+                },
+                {
+                    "title": "Application Mapping and Control-system Design for Microfluidic Biochips with Distributed Channel Storage",
+                    "authors": "**Chen Z**, Guo W, Liu G, et al.",
+                    "publication": "ACM Transactions on Design Automation of Electronic Systems, 2022, 28(2): 1-30.",
+                    "links": []
+                },
+                {
+                    "title": "Physical synthesis of flow-based microfluidic biochips considering distributed channel storage",
+                    "authors": "**Chen Z**, Huang X, Guo W, et al.",
+                    "publication": "In Proceedings of the 2019 Design, Automation & Test in Europe Conference & Exhibition (DATE), IEEE, 2019: 1525-1530.",
+                    "links": []
+                },
+                {
+                    "title": "Flow-based microfluidic biochips with distributed channel storage: Synthesis, physical design, and wash optimization",
+                    "authors": "Huang X, Guo W, **Chen Z**, et al.",
+                    "publication": "IEEE Transactions on Computers, 2021, 71(2): 464-478.",
+                    "links": []
+                },
+                {
+                    "title": "A unified algorithm based on HTS and self-adapting PSO for the construction of octagonal and rectilinear SMT",
+                    "authors": "Liu G, **Chen Z**, Zhuang Z, et al.",
+                    "publication": "Soft Computing, 2020, 24: 3943-3961.",
+                    "links": []
+                }
+            ]
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -134,7 +146,10 @@
                 { "degree": "学士", "major": "长春工业大学计算机科学与技术", "period": "2009  - 2013" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -167,20 +182,12 @@
                 { "degree": "博士研究生", "major": "厦门大学信息学院", "period": "2021 - 至今" }
             ]
         },
-        "publications": [
-            {
-                "title": "UniMem: Redesigning Disaggregated Memory within A Unified Local-Remote Memory Hierarchy",
-                "authors": "**Yijie Zhong**, Minqiang Zhou, Zhirong Shen*, Jiwu Shu",
-                "publication": "In Proceedings of 2024 USENIX Annual Technical Conference (**USENIX ATC'24**), July 10-12, 2024.",
-                "links": []
-            },
-            {
-                "title": "Redesigning High-Performance LSM-based Key-Value Stores with Persistent CPU Caches",
-                "authors": "**Yijie Zhong**, Zhirong Shen, Zixiang Yu*, Jiwu Shu",
-                "publication": "In Proceedings of the 39th IEEE International Conference on Data Engineering (**ICDE'23**), April 3-7, 2023.",
-                "links": []
-            }
-        ],
+        "publications": {
+            "group": [
+                "C33", "C28"
+            ],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -215,20 +222,19 @@
                 { "degree": "硕士", "major": "宁波大学计算机科学系", "period": "2017 - 2020" }
             ]
         },
-        "publications": [
-            {
-                "title": "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field",
-                "authors": "Ronglong Wu, **Shuyue Zhou**, Jiahao Lu, Zhirong Shen, Jiwu Shu, Zikang Xu, Kunlin Yang, Feilong Lin, Yiming Zhang",
-                "publication": "USENIX Annual Technical Conference (USENIX ATC'24), 2024.",
-                "links": []
-            },
-            {
-                "title": "Machine Learning Based Collaborative Prediction of SSD Failures in the Cloud",
-                "authors": "Yuze Jiang, Ruiming Lu, **Shuyue Zhou**, Qiao Li",
-                "publication": "2024 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA).",
-                "links": []
-            }
-        ],
+        "publications": {
+            "group": [
+                "C32"
+            ],
+            "personal": [
+                {
+                    "title": "Machine Learning Based Collaborative Prediction of SSD Failures in the Cloud",
+                    "authors": "Yuze Jiang, Ruiming Lu, Shuyue Zhou, Qiao Li",
+                    "publication": "2024 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA).",
+                    "links": []
+                }
+            ]
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -263,27 +269,13 @@
                 { "degree": "学士", "major": "厦门大学信息学院", "period": "2017 - 2021" }
             ]
         },
-        "publications": [
-            {
-                "title": "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field",
-                "authors": "**Ronglong Wu**, Shuyue Zhou, Jiahao Lu, Zhirong Shen, Jiwu Shu, Zikang Xu, Kunlin Yang, Feilong Lin, Yiming Zhang",
-                "publication": "In Proceedings of 2024 USENIX Annual Technical Conference (**USENIX ATC'24**), July 10-12, 2024. (AR: 77/488=15.8%)",
-                "links": []
-            },
-            {
-                "title": "Mitigating Write Disturbance in Non-Volatile Memory via Coupling Machine Learning with Out-of-Place Updates",
-                "authors": "**Ronglong Wu**, Zhirong Shen, Zhiwei Yang, Jiwu Shu",
-                "publication": "In Proceedings of International Symposium on High-Performance Computer Architecture (**HPCA'24**), March 2-6, 2024. (AR: 75/410=18.3%)",
-                "links": []
-            },
-            {
-                "title": "Relieving Write Disturbance for Phase Change Memory with RESET-Aware Data Encoding",
-                "authors": "**Ronglong Wu**, Zhirong Shen, Chengshuo Zheng, Jianqiang Chen, Zhiwei Yang, Dmitrii Kaplun, and Jiwu Shu",
-                "publication": "Accepted to IEEE Transactions on Computers (**TC**).",
-                "links": []
-            }
-            
-        ],
+        "publications": {
+            "group": [
+                "C32", "C30",
+                "J22"
+            ],
+            "personal": []
+        },
         "major_awards": {
             "en": [
                 "IEEE HPCA Travel Grant, 2024",
@@ -324,7 +316,10 @@
                 { "degree": "学士", "major": "计算机科学与技术，福州大学", "period": "2018 - 2022" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -361,7 +356,10 @@
                 { "degree": "学士", "major": "福州大学计算机科学", "period": "2018 - 2022" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -396,14 +394,12 @@
                 { "degree": "学士", "major": "厦门大学计算机科学系", "period": "2018 - 2022" }
             ]
         },
-        "publications": [
-            {
-                "title": "Redesigning High-Performance LSM-based Key-Value Stores with Persistent CPU Caches",
-                "authors": "Yijie Zhong, Zhirong Shen, **Zixiang Yu**, and Jiwu Shu",
-                "publication": "In Proceedings of the 39th IEEE International Conference on Data Engineering (ICDE'23), April 3-7, 2023.",
-                "links": []
-            }
-        ],
+        "publications": {
+            "group": [
+                "C28"
+            ],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -438,7 +434,10 @@
                 { "degree": "学士", "major": "浙江理工大学计算机科学与技术", "period": "2018 - 2022" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -471,7 +470,11 @@
                 { "degree": "学士", "major": "厦门大学计算机科学系", "period": "2019 - 2023" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -506,7 +509,10 @@
                 { "degree": "学士", "major": "厦门大学计算机科学系", "period": "2019 - 2023" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -541,7 +547,10 @@
                 { "degree": "学士", "major": "武汉理工大学计算机科学系", "period": "2019 - 2023" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -574,7 +583,10 @@
                 { "degree": "学士", "major": "浙江师范大学", "period": "2020 - 2024" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []
@@ -609,7 +621,10 @@
                 { "degree": "B.S.", "major": "计算机科学, 天津理工大学", "period": "2020 - 2024" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [
                 "National Scholarships, Ministry of Education, China, in 2022",
@@ -658,7 +673,10 @@
                 { "degree": "B.S.", "major": "计算机科学, 福州大学", "period": "2020 - 2024" }
             ]
         },
-        "publications": [],
+        "publications": {
+            "group": [],
+            "personal": []
+        },
         "major_awards": {
             "en": [],
             "zh": []

@@ -3,11 +3,12 @@ import { useStaticQuery, graphql } from "gatsby"
 /**
  * 返回论文数据
  * 
- * @returns {{title: string, authors: string, publication: string, links: {type: string, url: string}[]}[][]}
+ * @returns {{paper_id: string, title: string, authors: string, publication: string, links: {type: string, url: string}[]}[][]}
  */
 export default function usePublicationsData() {
     const data = useStaticQuery(graphql`
         fragment PaperFrament on Paper {
+            paper_id
             title
             authors
             publication
@@ -36,7 +37,7 @@ export default function usePublicationsData() {
     `)
 
     return [
-        {},
+        [],
         data.allConferencePapersJson.edges.map(({ node }) => node),
         data.allJournalPapersJson.edges.map(({ node }) => node),
     ]

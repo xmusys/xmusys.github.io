@@ -1,137 +1,155 @@
 [
     {
+        "paper_id": "J22",
         "title": "Relieving Write Disturbance for Phase Change Memory with RESET-Aware Data Encoding.",
-        "authors": "Ronglong Wu, **Zhirong Shen**, Chengshuo Zheng, Jianqiang Chen, Zhiwei Yang, Dmitrii Kaplun, and Jiwu Shu",
+        "authors": "Ronglong Wu, Zhirong Shen, Chengshuo Zheng, Jianqiang Chen, Zhiwei Yang, Dmitrii Kaplun, and Jiwu Shu",
         "publication": "Accepted to IEEE Transactions on Computers (**TC**).",
-        "links": [
-            {"type": "paper", "url": "https://github.com/shenzr"},
-            {"type": "slides", "url": ""},
-            {"type": "code", "url": ""}
-        ]
+        "links": []
     },
     {
+        "paper_id": "J21",
         "title": "FASTSync: a FAST Delta Sync Scheme for Encrypted Cloud Storage in High-Bandwidth Network Environments.",
-        "authors": "Suzhen Wu, Zhanhong Tu, Yuxuan Zhou, Zuocheng Wang, **Zhirong Shen**, Wei Chen, Wei Wang, Weichun Wang, and Bo Mao",
+        "authors": "Suzhen Wu, Zhanhong Tu, Yuxuan Zhou, Zuocheng Wang, Zhirong Shen, Wei Chen, Wei Wang, Weichun Wang, and Bo Mao",
         "publication": "ACM Transactions on Storage (**TOS**).",
         "links": []
     },
     {
+        "paper_id": "J20",
         "title": "Elastic Reed-Solomon Codes for Efficient Redundancy Transitioning in Distributed Key-Value Stores.",
-        "authors": "Si Wu, **Zhirong Shen**, Patrick P. C. Lee, Zhiwei Bai, and Yinlong Xu",
+        "authors": "Si Wu, Zhirong Shen, Patrick P. C. Lee, Zhiwei Bai, and Yinlong Xu",
         "publication": "IEEE/ACM Transactions on Networking (**TON**).",
         "links": []
     },
     {
+        "paper_id": "J19",
         "title": "Optimal Rack-Coordinated Updates in Erasure-Coded Data Centers: Design and Analysis.",
-        "authors": "Guowen Gong, **Zhirong Shen***, Liang Chen, Suzhen Wu, Xiaolu Li, Patrick P. C. Lee, Zhiguo Wan, and Jiwu Shu",
+        "authors": "Guowen Gong, Zhirong Shen*, Liang Chen, Suzhen Wu, Xiaolu Li, Patrick P. C. Lee, Zhiguo Wan, and Jiwu Shu",
         "publication": "IEEE Transactions on Computers (**TC**), 72(7), pp. 1871-1885, 2023.",
         "links": []
     },
     {
+        "paper_id": "J18",
         "title": "StreamDFP: A General Stream Mining Framework for Adaptive Disk Failure Prediction.",
-        "authors": "Shujie Han, Patrick P. C. Lee, **Zhirong Shen**, Cheng He, Yi Liu, and Tao Huang",
+        "authors": "Shujie Han, Patrick P. C. Lee, Zhirong Shen, Cheng He, Yi Liu, and Tao Huang",
         "publication": "IEEE Transactions on Computers (**TC**), 72(2), pp. 520-534, 2023.",
         "links": []
     },
     {
+        "paper_id": "J17",
         "title": "Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation.",
-        "authors": "Xiaolu Li, Keyun Cheng, **Zhirong Shen***, and Patrick P. C. Lee",
+        "authors": "Xiaolu Li, Keyun Cheng, Zhirong Shen*, and Patrick P. C. Lee",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 33(12), pp. 3400-3414, 2022.",
         "links": []
     },
     {
+        "paper_id": "J16",
         "title": "Optimal Repair-Scaling Trade-off in Locally Repairable Codes: Analysis and Evaluation.",
-        "authors": "Si Wu, **Zhirong Shen**, Patrick P. C. Lee, and Yinlong Xu",
+        "authors": "Si Wu, Zhirong Shen, Patrick P. C. Lee, and Yinlong Xu",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 33(1), pp. 56-69, 2022.",
         "links": []
     },
     {
+        "paper_id": "J15",
         "title": "Cluster-Aware Scattered Repair in Erasure-Coded Storage: Design and Analysis.",
-        "authors": "**Zhirong Shen**, Shiyao Lin, Jiwu Shu, Chengxin Xie, Zhijie Huang, and Yingxun Fu",
+        "authors": "Zhirong Shen, Shiyao Lin, Jiwu Shu, Chengxin Xie, Zhijie Huang, and Yingxun Fu",
         "publication": "IEEE Transactions on Computers (**TC**), 70(11), pp. 1861-1874, 2021.",
         "links": []
     },
     {
+        "paper_id": "J14",
         "title": "Cross-Rack-Aware Updates in Erasure-Coded Data Centers: Design and Evaluation.",
-        "authors": "**Zhirong Shen**, and Patrick P.C. Lee",
+        "authors": "Zhirong Shen, and Patrick P.C. Lee",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 31(10), pp. 2315-2328, 2020.",
         "links": []
     },
     {
+        "paper_id": "J13",
         "title": "Cross-Rack-Aware Single Failure Recovery for Clustered File Systems.",
-        "authors": "**Zhirong Shen**, Patrick P.C. Lee, Jiwu Shu, and Wenzhong Guo",
+        "authors": "Zhirong Shen, Patrick P.C. Lee, Jiwu Shu, and Wenzhong Guo",
         "publication": "IEEE Transactions on Dependable and Secure Computing (**TDSC**), 17(2), pp. 248-261, 2020.",
         "links": []
     },
     {
+        "paper_id": "J12",
         "title": "Correlation-Aware Stripe Organization for Efficient Writes in Erasure-Coded Storage: Algorithms and Evaluation.",
-        "authors": "**Zhirong Shen**, Patrick P.C. Lee, Jiwu Shu, and Wenzhong Guo",
+        "authors": "Zhirong Shen, Patrick P.C. Lee, Jiwu Shu, and Wenzhong Guo",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 30(7), pp. 1552-1564, 2019.",
         "links": []
     },
     {
+        "paper_id": "J11",
         "title": "Encoding-Aware Data Placement for Efficient Reads in XOR-Coded Storage Systems: Algorithms and Evaluation.",
-        "authors": "**Zhirong Shen**, Patrick P.C. Lee, Jiwu Shu, and Wenzhong Guo",
+        "authors": "Zhirong Shen, Patrick P.C. Lee, Jiwu Shu, and Wenzhong Guo",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 29(12), pp. 2241-2253, 2018.",
         "links": []
     },
     {
+        "paper_id": "J10",
         "title": "Preferred Search over Encrypted Data.",
-        "authors": "**Zhirong Shen**, Jiwu Shu, and Wei Xue",
+        "authors": "Zhirong Shen, Jiwu Shu, and Wei Xue",
         "publication": "Frontiers of Computer Science (**FCS**), 12(3), pp. 593-607, 2018.",
         "links": []
     },
     {
+        "paper_id": "J9",
         "title": "Keyword Search with Access Control over Encrypted Cloud Data.",
-        "authors": "**Zhirong Shen**, Jiwu Shu, and Wei Xue",
+        "authors": "Zhirong Shen, Jiwu Shu, and Wei Xue",
         "publication": "IEEE Sensors Journal, 17(3), pp. 858-868, 2017.",
         "links": []
     },
     {
+        "paper_id": "J8",
         "title": "Seek-Efficient I/O Optimization in Single Failure Recovery for XOR-Coded Storage Systems.",
-        "authors": "**Zhirong Shen**, Jiwu Shu, Patrick P.C. Lee, and Yingxun Fu",
+        "authors": "Zhirong Shen, Jiwu Shu, Patrick P.C. Lee, and Yingxun Fu",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 28(3), pp. 877-890, 2017.",
         "links": []
     },
     {
+        "paper_id": "J7",
         "title": "Short Code: An Efficient RAID-6 MDS Code for Optimizing Degraded Reads and Partial Stripe Writes.",
-        "authors": "Yingxun Fu, Jiwu Shu, Xianghong Luo, and **Zhirong Shen**",
+        "authors": "Yingxun Fu, Jiwu Shu, Xianghong Luo, and Zhirong Shen",
         "publication": "IEEE Transactions on Computers (**TC**), 66(1), pp. 127-137, 2017.",
         "links": []
     },
     {
+        "paper_id": "J6",
         "title": "Parity-Switched Data Placement: Optimizing Partial Stripe Writes in XOR-Coded Storage Systems.",
-        "authors": "**Zhirong Shen**, Jiwu Shu, and Yingxun Fu",
+        "authors": "Zhirong Shen, Jiwu Shu, and Yingxun Fu",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 27(6), pp. 1674-1686, 2016.",
         "links": []
     },
     {
+        "paper_id": "J5",
         "title": "HV Code: An All-Around MDS Code for RAID-6 Storage Systems.",
-        "authors": "**Zhirong Shen**, Jiwu Shu, and Yingxun Fu",
+        "authors": "Zhirong Shen, Jiwu Shu, and Yingxun Fu",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 27(11), pp. 3311-3322, 2016.",
         "links": []
     },
     {
+        "paper_id": "J4",
         "title": "Reconsidering Single Disk Failure Recovery for Erasure Coded Storage Systems: Optimizing Load Balancing in Stack-Level.",
-        "authors": "Yingxun Fu, Jiwu Shu, **Zhirong Shen**, and Guangyan Zhang",
+        "authors": "Yingxun Fu, Jiwu Shu, Zhirong Shen, and Guangyan Zhang",
         "publication": "IEEE Transactions on Parallel and Distributed Systems (**TPDS**), 27(5), pp. 1457-1469, 2016.",
         "links": []
     },
     {
+        "paper_id": "J3",
         "title": "Shield: A Stackable Secure Storage System for File Sharing in Public Storage.",
-        "authors": "Jiwu Shu, **Zhirong Shen**, and Wei Xue",
+        "authors": "Jiwu Shu, Zhirong Shen, and Wei Xue",
         "publication": "Journal of Parallel and Distributed Computing (**JPDC**), 74 (9), 2872-2883, 2014.",
         "links": []
     },
     {
+        "paper_id": "J2",
         "title": "Survey on the Research and Development of Searchable Encryption Schemes.",
-        "authors": "**Zhirong Shen**, Wei Xue, and Jiwu Shu",
+        "authors": "Zhirong Shen, Wei Xue, and Jiwu Shu",
         "publication": "Journal of Software, 25(4), 2014. (in Chinese)",
         "links": []
     },
     {
+        "paper_id": "J1",
         "title": "Research on the New Non-Volatile Storage.",
-        "authors": "**Zhirong Shen**, Wei Xue, and Jiwu Shu",
+        "authors": "Zhirong Shen, Wei Xue, and Jiwu Shu",
         "publication": "Journal of Computer Research and Development, 51(2), 2014. (in Chinese)",
         "links": []
     }

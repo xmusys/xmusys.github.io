@@ -25,7 +25,7 @@ export default function ResearchIndex() {
                 [&_strong]:text-gray-900 [&_strong]:font-semibold
                 [&_hr]:my-4
                 [&_ul]:list-disc [&_ul]:-mb-4
-                [&_li]:ml-8
+                [&_li]:ml-8 [&_li]:leading-6
                 [&_a]:text-xmu-blue-70 hover:[&_a]:underline
             ">
                 {lang === "en" ? <ResearchEnMdx/> : <ResearchZhMdx/>}

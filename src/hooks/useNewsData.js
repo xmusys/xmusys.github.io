@@ -35,7 +35,7 @@ export default function useNewsData(lang) {
                         }
                     }
                 }
-              }
+            }
         }
     `)
     return data.allNewsJson.edges.map(({ node }) => ({

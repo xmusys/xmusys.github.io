@@ -23,14 +23,21 @@ exports.createSchemaCustomization = ({ actions }) => {
         }
 
         type Publication implements Node {
+            paper_id: String
             title: String
             authors: String
             publication: String
             links: [Link]
         }
 
+        type PersonalPublication implements Node {
+            group: [String]
+            personal: [Publication]
+        }
+
         interface Paper implements Node {
             id: ID!
+            paper_id: String
             title: String
             authors: String
             publication: String
@@ -52,9 +59,8 @@ exports.createSchemaCustomization = ({ actions }) => {
             links: [Link]
             about_me: StringLang
             education: EducationLang
-            publications: [Publication]
+            publications: PersonalPublication
             major_awards: StringArrayLang
-            
         }
 
         type AlumniJson implements Node {

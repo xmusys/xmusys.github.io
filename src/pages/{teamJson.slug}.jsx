@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { LangContext } from '../contexts/lang-context'
 
 import Seo from '../components/common/seo'
-import TeamMemberPage from '../components/team/team-member-page'
+import TeamMemberPageIndex from '../components/team/team-member-page-index'
 
 
 export default function MemberEnPage({ data }) {
@@ -21,7 +21,7 @@ export default function MemberEnPage({ data }) {
 
     return (
         <LangContext.Provider value="en">
-            <TeamMemberPage data={memberData}></TeamMemberPage>
+            <TeamMemberPageIndex data={memberData}></TeamMemberPageIndex>
         </LangContext.Provider>
     )
 }
@@ -60,12 +60,15 @@ export const query = graphql`
                         }
                     }
                     publications {
-                        title
-                        authors
-                        publication
-                        links {
-                            type
-                            url
+                        group
+                        personal {
+                            title
+                            authors
+                            publication
+                            links {
+                                type
+                                url
+                            }
                         }
                     }
                     major_awards {
