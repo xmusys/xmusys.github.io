@@ -38,6 +38,25 @@ module.exports = {
         name: `team-images`,
         path: `${__dirname}/src/assets/images/team`,
       },
-    }
+    },
+
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-P3NJV05E9B", // Google Analytics / GA
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: [],
+          delayOnRouteUpdate: 0,
+        },
+      },
+    },
   ]
 };

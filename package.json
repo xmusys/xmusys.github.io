@@ -22,6 +22,7 @@
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.9.0",
     "gatsby": "^5.13.3",
+    "gatsby-plugin-google-gtag": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-mdx": "^5.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
