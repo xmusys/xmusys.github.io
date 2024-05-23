@@ -1,13 +1,11 @@
 import * as React from "react"
 import { useState, useRef, useEffect, useContext  } from "react"
-import { Link } from "gatsby"
+import { Link, Script } from "gatsby"
 import { useLocation } from '@reach/router'
-import { Modal } from "flowbite-react";
-import { Script } from "gatsby";
+import { Spinner } from "flowbite-react";
 
 import { LangContext } from "../../contexts/lang-context"
 import WorldIcon from "../icons/world-icon"
-import {  StaticImage } from "gatsby-plugin-image";
 
 
 /**
@@ -135,22 +133,64 @@ function NavItems() {
  */
 function WorldMap() {
     const [openModal, setOpenModal] = useState(false)
+    const [isLoaded, setIsLoaded] = useState(false)
+    const dropdown = useRef(null)
     const lang = useContext(LangContext)
     const headLabel = lang === "en" ? "Visitor Map" : "访客地图"
+    
+
+    const handleClickOutside = (event) => {
+        if (dropdown.current && !dropdown.current.contains(event.target)) {
+            setOpenModal(false)
+        }
+    }
+
+    useEffect(() => {
+        document.addEventListener("mousedown", handleClickOutside)
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside)
+        }
+    }, [])
+
+
+    function handleClick() {
+        setOpenModal(!openModal)
+    }
+
+    function loadMap() {
+        const mapContainer = document.getElementById("map-container-div")
+        loadOuter()
+
+        function loadOuter() {
+            setTimeout(() => {
+                const map = document.getElementById("mapmyvisitors-widget")
+                if (map) {
+                    mapContainer.appendChild(map)
+                    setIsLoaded(true)
+                } else {
+                    loadOuter()
+                }
+            }, 100)
+        }
+    }
 
     return (
-        <div className="pl-4  pb-1">
-            <button onClick={() => setOpenModal(true)}>
+        <div ref={dropdown} className="relative pl-4 pb-1">
+            <button onClick={handleClick} onMouseEnter={() => setOpenModal(true)} onMouseLeave={() => setOpenModal(false)}>
                 <WorldIcon color="#fff" ></WorldIcon>
             </button>
-            <Modal dismissible position="center" show={openModal} onClose={() => setOpenModal(false)}>
-                <Modal.Header>{headLabel}</Modal.Header>
-                    <Modal.Body>
-                        <Script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=720&t=tt&d=DGRSMZGWlkPd7L4-WjsREdAR86ORfemBIq-n1PI1Rxg&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></Script>
-                        <Script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=bljJKyR7iULeAu_DJrjLg3FTXIxu-d-h1wSpRWQtRNk"></Script>
-                        <StaticImage className="" alt="visitor map" src="https://mapmyvisitors.com/map.png?cl=ffffff&w=720&t=tt&d=DGRSMZGWlkPd7L4-WjsREdAR86ORfemBIq-n1PI1Rxg&co=2d78ad&ct=ffffff"></StaticImage>
-                    </Modal.Body>
-            </Modal>
+            <div className={`${openModal ? "block" : "hidden"} absolute object-right-top top-10 right-0`}>
+                <div className="w-[26rem] h-[18rem] p-4 flex flex-col items-center bg-[#2d78ad] rounded-lg gap-4 shadow-lg">
+                    <div className="font-semibold text-xl text-center leading-1">
+                        { headLabel }
+                    </div>
+                    <div id="map-container-div" className="rounded-lg flex justify-center items-center">
+                        {isLoaded ? <></> : <Spinner></Spinner>}
+                        <Script onLoad={loadMap} type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=400&t=tt&d=DGRSMZGWlkPd7L4-WjsREdAR86ORfemBIq-n1PI1Rxg'></Script>
+                    </div>
+                </div>
+                <div className="size-64"></div>
+            </div>
         </div>
     )
 }
