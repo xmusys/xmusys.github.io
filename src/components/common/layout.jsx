@@ -1,6 +1,6 @@
 import * as React from "react"
 import { useState, useRef, useEffect, useContext  } from "react"
-import { Link, Script } from "gatsby"
+import { Link } from "gatsby"
 import { useLocation } from '@reach/router'
 import { Spinner } from "flowbite-react";
 
@@ -135,6 +135,7 @@ function WorldMap() {
     const [openModal, setOpenModal] = useState(false)
     const [isLoaded, setIsLoaded] = useState(false)
     const dropdown = useRef(null)
+    const location = useLocation()
     const lang = useContext(LangContext)
     const headLabel = lang === "en" ? "Visitor Map" : "访客地图"
     
@@ -152,44 +153,35 @@ function WorldMap() {
         }
     }, [])
 
+    useEffect(() => {
+    }, [location])
 
-    function handleClick() {
-        setOpenModal(!openModal)
-    }
-
-    function loadMap() {
+    function loadMap(open) {
+        setOpenModal(open)
+        if (isLoaded) return
         const mapContainer = document.getElementById("map-container-div")
-        loadOuter()
-
-        function loadOuter() {
-            setTimeout(() => {
-                const map = document.getElementById("mapmyvisitors-widget")
-                if (map) {
-                    mapContainer.appendChild(map)
-                    setIsLoaded(true)
-                } else {
-                    loadOuter()
-                }
-            }, 100)
-        }
+        const script = document.createElement('script')
+        script.onload = () => setIsLoaded(true)
+        script.id = 'mapmyvisitors'
+        script.src = `https://mapmyvisitors.com/map.js?cl=ffffff&w=400&t=tt&d=DGRSMZGWlkPd7L4-WjsREdAR86ORfemBIq-n1PI1Rxg`
+        mapContainer.appendChild(script);
     }
 
     return (
-        <div ref={dropdown} className="relative pl-4 pb-1">
-            <button onClick={handleClick} onMouseEnter={() => setOpenModal(true)} onMouseLeave={() => setOpenModal(false)}>
+        <div ref={dropdown} className="relative pl-4 pb-1" onMouseEnter={() => loadMap(true)} onMouseLeave={() => loadMap(false)} tabIndex={0} role="button">
+            <button onClick={() => loadMap(!openModal)}>
                 <WorldIcon color="#fff" ></WorldIcon>
             </button>
-            <div className={`${openModal ? "block" : "hidden"} absolute object-right-top top-10 right-0`}>
+            <div className="absolute object-right-top top-0 right-0 w-8 h-10"></div>
+            <div className={`${openModal ? "block" : "hidden"} absolute object-right-top top-10 -right-12 sm:right-0`}>
                 <div className="w-[26rem] h-[18rem] p-4 flex flex-col items-center bg-[#2d78ad] rounded-lg gap-4 shadow-lg">
                     <div className="font-semibold text-xl text-center leading-1">
                         { headLabel }
                     </div>
-                    <div id="map-container-div" className="rounded-lg flex justify-center items-center">
-                        {isLoaded ? <></> : <Spinner></Spinner>}
-                        <Script onLoad={loadMap} type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=400&t=tt&d=DGRSMZGWlkPd7L4-WjsREdAR86ORfemBIq-n1PI1Rxg'></Script>
+                    <div id="map-container-div" className="w-full h-full rounded-lg flex justify-center items-center">
+                        {isLoaded ? <></> :<Spinner size="lg"></Spinner>}
                     </div>
                 </div>
-                <div className="size-64"></div>
             </div>
         </div>
     )
