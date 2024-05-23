@@ -2,8 +2,12 @@ import * as React from "react"
 import { useState, useRef, useEffect, useContext  } from "react"
 import { Link } from "gatsby"
 import { useLocation } from '@reach/router'
+import { Modal } from "flowbite-react";
+import { Script } from "gatsby";
 
 import { LangContext } from "../../contexts/lang-context"
+import WorldIcon from "../icons/world-icon"
+import {  StaticImage } from "gatsby-plugin-image";
 
 
 /**
@@ -115,13 +119,39 @@ function NavItems() {
 
     return (
         <nav className="ml-auto">
-            <ul className="hidden ml:flex ml:space-x-2">
+            <ul className="hidden ml:flex ml:space-x-2 items-center">
                 {navItems.map(item => <NavItem key={item.title} title={item.title} target={item.target}></NavItem>)}
             </ul>
             <div className="ml:hidden">
                 <Menu navItems={navItems}></Menu>
             </div>
         </nav>
+    )
+}
+
+/**
+ * 访客地图
+ * @returns {React.ReactNode} 
+ */
+function WorldMap() {
+    const [openModal, setOpenModal] = useState(false)
+    const lang = useContext(LangContext)
+    const headLabel = lang === "en" ? "Visitor Map" : "访客地图"
+
+    return (
+        <div className="pl-4  pb-1">
+            <button onClick={() => setOpenModal(true)}>
+                <WorldIcon color="#fff" ></WorldIcon>
+            </button>
+            <Modal dismissible position="center" show={openModal} onClose={() => setOpenModal(false)}>
+                <Modal.Header>{headLabel}</Modal.Header>
+                    <Modal.Body>
+                        <Script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=720&t=tt&d=DGRSMZGWlkPd7L4-WjsREdAR86ORfemBIq-n1PI1Rxg&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></Script>
+                        <Script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=bljJKyR7iULeAu_DJrjLg3FTXIxu-d-h1wSpRWQtRNk"></Script>
+                        <StaticImage className="" alt="visitor map" src="https://mapmyvisitors.com/map.png?cl=ffffff&w=720&t=tt&d=DGRSMZGWlkPd7L4-WjsREdAR86ORfemBIq-n1PI1Rxg&co=2d78ad&ct=ffffff"></StaticImage>
+                    </Modal.Body>
+            </Modal>
+        </div>
     )
 }
 
@@ -136,6 +166,7 @@ function Header() {
             <div className="max-w-[68rem] mx-auto px-8 py-4 flex items-center">
                 <Logo></Logo>
                 <NavItems></NavItems>
+                <WorldMap></WorldMap>
             </div>
         </header>   
     )
