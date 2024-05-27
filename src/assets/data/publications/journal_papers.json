@@ -1,5 +1,12 @@
 [
     {
+        "paper_id": "J23",
+        "title": "Achieving Tunable Erasure Coding with Cluster-Aware Redundancy Transitioning.",
+        "authors": "Feng Zhang, Fulin Nan, Binbin Xu, Zhirong Shen, Jiebin Zhai, Dmitrii Kalplun, and Jiwu Shu",
+        "publication": "Accepted to ACM Transactions on Architecture and Code Optimization (**TACO**).",
+        "links": []
+    },
+    {
         "paper_id": "J22",
         "title": "Relieving Write Disturbance for Phase Change Memory with RESET-Aware Data Encoding.",
         "authors": "Ronglong Wu, Zhirong Shen, Chengshuo Zheng, Jianqiang Chen, Zhiwei Yang, Dmitrii Kaplun, and Jiwu Shu",
