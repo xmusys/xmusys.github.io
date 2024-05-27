@@ -213,7 +213,7 @@ function Footer() {
     return (
         <footer className="mt-auto">
             <div className="py-3 bg-xmu-blue-10 text-neutral-500 text-xs sm:text-sm text-center hyphens-manual">
-                © 2024 ERAS Group <span className="hidden sm:inline">(Efficient, Reliable, and Advanced Storage Research Group)</span>
+                © 2024 ERAS Group <span className="hidden sm:inline">(Efficient, Reliable, and Advanced System Research Group)</span>
             </div>
         </footer>
     )

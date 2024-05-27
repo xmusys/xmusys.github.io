@@ -1,6 +1,6 @@
 # ERAS Research Group 
 
-*Efficient, Reliable, and Advanced Storage Research Group. 🚀* 
+*Efficient, Reliable, and Advanced System Research Group. 🚀* 
 
 ---
 
@@ -75,7 +75,7 @@
 ```markdown
 # 欢迎来到 ERAS 研究小组！
 
-*高效、可靠、先进的存储研究小组*
+*高效、可靠、先进的系统研究小组*
 
 ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研究，主要研究内容包括基于纠删码的高可靠存储和高效访问技术，新兴存储器件的容错和性能优化，以及KV存储系统。
 
@@ -89,7 +89,7 @@ ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研
 ```markdown
 # 欢迎来到 ERAS 研究小组！
 
-*高效、可靠、先进的存储研究小组*
+*高效、可靠、先进的系统研究小组*
 
 ERAS 研究小组由沈志荣副教授负责，聚焦于智能存储系统的研究，主要研究内容包括基于纠删码的高可靠存储和高效访问技术，新兴存储器件的容错和性能优化，以及KV存储系统。
 
