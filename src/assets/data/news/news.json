@@ -2,6 +2,13 @@
     {
         "date": "2024-5",
         "content": {
+            "en": "One papers has been accepted to ACM TACO. Congrats to Feng Zhang.",
+            "zh": "一篇论文被 ACM TACO 接收。祝贺 张峰。"
+        }
+    },
+    {
+        "date": "2024-5",
+        "content": {
             "en": "Two papers have been accepted to USENIX ATC'24. Congrats to [Ronglong](/rong-long-wu), [Shuyue](/shu-yue-zhou), and [Yijie](/yi-jie-zhong).",
             "zh": "两篇论文被 USENIX ATC'24 接收。祝贺 [吴镕龙](/rong-long-wu-zh)、[周书悦](/shu-yue-zhou-zh) 和 [钟一捷](/yi-jie-zhong-zh)。"
         }
