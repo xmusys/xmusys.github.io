@@ -4,7 +4,9 @@
 module.exports = {
   siteMetadata: {
     title: `ERAS Research Group`,
-    siteUrl: `https://github.io/xmusys/xmusys.github.io/`,
+    siteUrl: `https://xmusys.github.io/`,
+    description: `Efficient, Reliable, and Advanced System Research Group`,
+    keywords: `System Research`,
   },
   plugins: [
     "gatsby-plugin-postcss",
