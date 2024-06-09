@@ -23,8 +23,8 @@ export default function Seo({ title }) {
     return (
         <>
             <title>{title} | {data.site.siteMetadata.title}</title>
-            <meta name="description" content="Efficient, Reliable, and Advanced System Research Group">
-            <meta name="keywords" content="System Research">
+            <meta name="description" content="Efficient, Reliable, and Advanced System Research Group" />
+            <meta name="keywords" content="System Research" />
             <meta name="google-site-verification" content="WKKkeJIj7At4UrPqbZ4CsSTC_VcMKw0EhGjzko4gI9s" />
         </>
     )
