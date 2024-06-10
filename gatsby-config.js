@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `ERAS Research Group`,
-    siteUrl: `https://xmusys.github.io/`,
+    siteUrl: `https://xmusys.github.io`,
     description: `Efficient, Reliable, and Advanced System Research Group`,
     keywords: `System Research`,
   },
@@ -21,6 +21,15 @@ module.exports = {
     `gatsby-transformer-json`,
 
     `gatsby-plugin-sitemap`,
+
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        sitemap: 'https://xmusys.github.io/sitemap-index.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
