@@ -23,6 +23,25 @@ module.exports = {
     `gatsby-plugin-sitemap`,
 
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-P3NJV05E9B",
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          origin: "https://xmusys.github.io",
+          delayOnRouteUpdate: 0,
+        },
+      },
+    },
+
+    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         sitemap: 'https://xmusys.github.io/sitemap-index.xml',
