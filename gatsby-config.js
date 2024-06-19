@@ -44,7 +44,6 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        sitemap: 'https://xmusys.github.io/sitemap-index.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     },
