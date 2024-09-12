@@ -138,7 +138,6 @@ function WorldMap() {
     const location = useLocation()
     const lang = useContext(LangContext)
     const headLabel = lang === "en" ? "Visitor Map" : "访客地图"
-    
 
     const handleClickOutside = (event) => {
         if (dropdown.current && !dropdown.current.contains(event.target)) {
@@ -161,7 +160,13 @@ function WorldMap() {
         if (isLoaded) return
         const mapContainer = document.getElementById("map-container-div")
         const script = document.createElement('script')
-        script.onload = () => setIsLoaded(true)
+        script.onload = () => {
+            setIsLoaded(true)
+            const link = document.getElementById("mapmyvisitors-widget")
+            if (link){
+                link.href = "https://xmusys.github.io/"
+            }
+        }
         script.id = 'mapmyvisitors'
         script.src = `https://mapmyvisitors.com/map.js?cl=ffffff&w=400&t=tt&d=DGRSMZGWlkPd7L4-WjsREdAR86ORfemBIq-n1PI1Rxg`
         mapContainer.appendChild(script);
@@ -174,11 +179,11 @@ function WorldMap() {
             </button>
             <div className="absolute object-right-top top-0 right-0 w-8 h-10"></div>
             <div className={`${openModal ? "block" : "hidden"} absolute object-right-top top-10 -right-12 sm:right-0`}>
-                <div className="w-[26rem] h-[18rem] p-4 flex flex-col items-center bg-[#2d78ad] rounded-lg gap-4 shadow-lg">
-                    <div className="font-semibold text-xl text-center leading-1">
+                <div className="w-[26rem] h-[18rem] p-4 flex flex-col items-center bg-[#2d78ad] rounded-lg gap-4 shadow-lg cursor-default">
+                    <div className="font-semibold text-xl text-center leading-1 cursor-default">
                         { headLabel }
                     </div>
-                    <div id="map-container-div" className="w-full h-full rounded-lg flex justify-center items-center">
+                    <div id="map-container-div" className="w-full h-full rounded-lg flex justify-center items-center [&_a]:pointer-events-none cursor-default">
                         {isLoaded ? <></> :<Spinner size="lg"></Spinner>}
                     </div>
                 </div>
