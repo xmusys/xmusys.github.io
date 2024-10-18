@@ -1,5 +1,12 @@
 [
     {
+        "paper_id": "J24",
+        "title": "A Survey of the Past, Present, and Future of Erasure Coding for Storage Systems.",
+        "authors": "Zhirong Shen, Yuhui Cai, Keyun Cheng, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu.",
+        "publication": "Accepted to ACM Transactions on Storage (**TOS**).",
+        "links": []
+    },
+    {
         "paper_id": "J23",
         "title": "Achieving Tunable Erasure Coding with Cluster-Aware Redundancy Transitioning.",
         "authors": "Feng Zhang, Fulin Nan, Binbin Xu, Zhirong Shen, Jiebin Zhai, Dmitrii Kalplun, and Jiwu Shu",
