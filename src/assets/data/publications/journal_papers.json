@@ -1,5 +1,12 @@
 [
     {
+        "paper_id": "J25",
+        "title": "TPRepair: Tree-Based Pipelined Repair in Clustered Storage Systems.",
+        "authors": "Jiahui Yang, Fulin Nan, Zhirong Shen, Zhisheng Chen, Yuhui Cai, Dmitrii Kaplun, Xiaoli Wang, Quanqing Xu, Chuanhui Yang, and Jiwu Shu.",
+        "publication": "Accepted to ACM Transactions on Architecture and Code Optimization (**TACO**).",
+        "links": []
+    },
+    {
         "paper_id": "J24",
         "title": "A Survey of the Past, Present, and Future of Erasure Coding for Storage Systems.",
         "authors": "Zhirong Shen, Yuhui Cai, Keyun Cheng, Patrick P. C. Lee, Xiaolu Li, Yuchong Hu, and Jiwu Shu.",
