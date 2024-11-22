@@ -1,5 +1,26 @@
 [
     {
+        "date": "2024-11",
+        "content": {
+            "en": "One Paper has been accepted to PPoPP'25. Congrats to [Fulin](/fu-lin-nan).",
+            "zh": "一篇论文被 PPoPP'25 接收。祝贺 [南福麟](/fu-lin-nan)。"
+        }
+    }, 
+    {
+        "date": "2024-11",
+        "content": {
+            "en": "One Paper has been accepted to HPCA'25. Congrats to [Yuhui](/yu-hui-cai).",
+            "zh": "一篇论文被 HPCA'25 接收。祝贺 [蔡煜晖](/yu-hui)。"
+        }
+    },
+    {
+        "date": "2024-11",
+        "content": {
+            "en": "One Paper has been accepted to ACM TACO. Congrats to [Jiahui](/jia-hui-yang).",
+            "zh": "一篇论文被 ACM TACO 接收。祝贺 [杨佳晖](/jia-hui-yang)。"
+        }
+    },
+    {
         "date": "2024-10",
         "content": {
             "en": "One tutorial has been accepted to HPCA'25.",
