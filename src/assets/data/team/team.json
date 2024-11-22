@@ -358,7 +358,14 @@
         },
         "publications": {
             "group": ["C34","J24","J25"],
-            "personal": []
+            "personal": [
+                {
+                    "title": "Hawkeyes: Addressing Weak Memory Order in Program Migration Based on Instruction Windows.",
+                    "authors": "Zhangqi Zhu, Yuhui Cai, Binbin Xu, Pingchao Yang, Jicheng Chen, Zhirong Shen",
+                    "publication": "In Proceedings of the 4th Workshop on Challenges and Opportunities of Efficient and Performant Storage Systems (CHEOPS'2024).",
+                    "links": []
+                }
+            ]
         },
         "major_awards": {
             "en": ["Outstanding Undergraduate Student, Fuzhou University, 2022"],
