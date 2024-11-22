@@ -9,7 +9,7 @@
     {
         "paper_id": "C34",
         "title": "ChameleonEC: Exploiting Tunability of Erasure Coding for Low-Interference Repair.",
-        "authors": "Yuhui Cai#, Shiyao Lin#, Zhirong Shen* , and Jiwu Shu",
+        "authors": "Yuhui Cai#, Shiyao Lin#, Zhirong Shen*, Jiahui Yang, and Jiwu Shu",
         "publication": "In Proceedings of International Symposium on High-Performance Computer Architecture (**HPCA'25**), March 1-5, 2025.",
         "links": []
     },
