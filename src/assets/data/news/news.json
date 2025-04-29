@@ -1,5 +1,12 @@
 [
     {
+        "date": "2025-05",
+        "content": {
+            "en": "We achieved the highest score in the SMARTMEM Memory Failure Prediction Competition at WWW 2025. Congrats to Chenglin, Shouxin and [Xinbin](/xin-bin-hu).",
+            "zh": "我们在SMARTMEM错误预测比赛（与WWW'2025联合举办）中取得最高分。祝贺汪成林、王守鑫和[胡心彬](/xin-bin-hu)。"
+        }
+    }, 
+    {
         "date": "2024-11",
         "content": {
             "en": "One Paper has been accepted to PPoPP'25. Congrats to [Fulin](/fu-lin-nan).",
