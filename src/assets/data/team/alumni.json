@@ -1,4 +1,64 @@
 [
+   {
+    "name": {
+      "en": "Zhiwei Yang",
+      "zh": "杨志伟"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "year": "2025",
+    "first_job": {
+      "en": "Tercent",
+      "zh": "腾讯"
+    }
+  },
+  {
+    "name": {
+      "en": "Yuhui Cai",
+      "zh": "蔡煜辉"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "year": "2025",
+    "first_job": {
+      "en": "Agricultural Bank of China",
+      "zh": "中国农业银行"
+    }
+  },
+  {
+    "name": {
+      "en": "Zixiang Yu",
+      "zh": "余子祥"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "year": "2025",
+    "first_job": {
+      "en": "Civil servant",
+      "zh": "公务员"
+    }
+  },
+  {
+    "name": {
+      "en": "Feng Zhang",
+      "zh": "张峰"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "year": "2025",
+    "first_job": {
+      "en": "Civil servant",
+      "zh": "公务员"
+    }
+  },
   {
     "name": {
       "en": "Jianqiang Chen",
