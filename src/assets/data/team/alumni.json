@@ -1,6 +1,21 @@
 [
    {
     "name": {
+      "en": "Zhisheng Chen",
+      "zh": "陈志盛"
+    },
+    "degree": {
+      "en": "Postdoc",
+      "zh": "博士后"
+    },
+    "year": "2025",
+    "first_job": {
+      "en": "Fuzhou University",
+      "zh": "福州大学"
+    }
+  },
+   {
+    "name": {
       "en": "Zhiwei Yang",
       "zh": "杨志伟"
     },
@@ -10,7 +25,7 @@
     },
     "year": "2025",
     "first_job": {
-      "en": "Tercent",
+      "en": "Tencent",
       "zh": "腾讯"
     }
   },
