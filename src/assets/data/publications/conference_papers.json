@@ -1,8 +1,15 @@
 [
     {
+        "paper_id": "C36",
+        "title": "MetoHash: A Memory-Efficient and Traffic-Optimized Hashing Index on Hybrid PMem-DRAM Memories.",
+        "authors": "Fulin Nan, Ronglong Wu, Zhirong Shen, Jiahui Yang, Li Cheng, Zheng Chen, and Jiwu Shu",
+        "publication": "In Proceedings of International Conference for High Performance Computing, Networking, Storage and Analysis (SC'25), November 16-21, 2025. (AR: 136/643=21.2%)",
+        "links": []
+    },
+    {
         "paper_id": "C35",
         "title": "AC-Cache: A Memory-Efficient Caching System for Small Objects via Exploiting Access Correlations.",
-        "authors": "Fulin Nan, Ronglong Wu, Zhirong Shen, Jiahui Yang, Li Cheng, Zheng Chen, and Jiwu Shu",
+        "authors": "Zixiang Yu, Guangyang Deng, Zhirong Shen*, Qiangsheng Su, Ronglong Wu, Xiaoli Wang, Quanqing Xu, Chuanhui Yang, Zhifeng Bao, Yiming Zhang, Jiwu Shu",
         "publication": "In Proceedings of ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (**PPoPP'25**), March 1-5, 2025. (AR: 38/189=20.1%)",
         "links": []
     },
