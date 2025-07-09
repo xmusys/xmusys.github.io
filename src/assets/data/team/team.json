@@ -16,8 +16,8 @@
             { "type": "email", "url": "mailto:shenzr@xmu.edu.cn"}
         ],
         "about_me": {
-            "en": "I am now a full professor of the School of Informatics at Xiamen University. I obtained my B.S. degree in Mathematics and Applied Mathematics from University of Electronic Science and Technology of China (UESTC), and Ph.D. degree in Computer Science from Tsinghua University. I was a postdoctoral fellow in the Department of Computer Science and Engineering at The Chinese University of Hong Kong.\nMy current research interests include designing and building secure and dependable techniques for large-scale storage systems and data centers. My homepage is https://shenzr.github.io .",
-            "zh": "我现在是厦门大学信息学院的教授。我获得了电子科技大学数学与应用数学学士学位，清华大学计算机科学博士学位。我曾在香港中文大学计算机科学与工程系做博士后研究员。\n我的研究兴趣包括设计和构建大规模存储系统和数据中心的安全可靠技术。我的个人主页是https://shenzr.github.io"
+            "en": "I am now a full professor of the School of Informatics at Xiamen University. I obtained my B.S. degree in Mathematics and Applied Mathematics from University of Electronic Science and Technology of China (UESTC), and Ph.D. degree in Computer Science from Tsinghua University. I was a postdoctoral fellow in the Department of Computer Science and Engineering at The Chinese University of Hong Kong.\nMy current research interests include designing and building secure and dependable techniques for large-scale storage systems and data centers. My homepage is `https://shenzr.github.io` .",
+            "zh": "我现在是厦门大学信息学院的教授。我获得了电子科技大学数学与应用数学学士学位，清华大学计算机科学博士学位。我曾在香港中文大学计算机科学与工程系做博士后研究员。\n我的研究兴趣包括设计和构建大规模存储系统和数据中心的安全可靠技术。我的个人主页是`https://shenzr.github.io`"
         },
         "education": {
             "en": [
