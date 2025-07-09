@@ -488,8 +488,46 @@
                 { "degree": "B.S.", "major": "Computer Science, Xiamen University", "period": "2021 - 2025" }
             ],
             "zh": [
-                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2024 - 至今" },
-                { "degree": "B.S.", "major": "计算机科学, 厦门大学", "period": "2020 - 2024" }
+                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2025 - 至今" },
+                { "degree": "B.S.", "major": "计算机科学, 厦门大学", "period": "2021 - 2025" }
+            ]
+        },
+        "publications": {
+            "group": [],
+            "personal": []
+        },
+        "major_awards": {
+            "en": [],
+            "zh": []
+        }
+    },
+    {
+        "name": {
+            "en": "Zhifei Chen",
+            "zh": "陈知菲"
+        },
+        "slug": "zhi-fei-chen",
+        "photo": "zhi-fei-chen",
+        "degree": "MS Student",
+        "position": {
+            "en": "MS Student",
+            "zh": "硕士"
+        },
+        "links": [
+            { "type": "email", "url": "yingzisashuang13@163.com" }
+        ],
+        "about_me": {
+            "en": "I am a M.S student (starting in 2025) in the Department of Computer Science at Xiamen University, advised by Prof. Zhirong Shen.",
+            "zh": "我是陈知菲，来自厦门大学的一年级硕士研究生，导师是沈志荣教授。"
+        },
+        "education": {
+            "en": [
+                { "degree": "M.S.", "major": "Computer Science, Xiamen University", "period": "2025 - Present" },
+                { "degree": "B.S.", "major": "Computer Science, Fuzhou University", "period": "2021 - 2025" }
+            ],
+            "zh": [
+                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2025 - 至今" },
+                { "degree": "B.S.", "major": "计算机科学, 福州大学", "period": "2021 - 2025" }
             ]
         },
         "publications": {
