@@ -353,15 +353,15 @@
             { "type": "email", "url": "mailto:lujhcoconut@foxmail.com" }
         ],
         "about_me": {
-            "en": "I am Jiahao Lu, a M.S. student from Xiamen University, advised by Prof. Zhirong Shen. My current research interests include High-performance and dependable storage system.",
-            "zh": "我是卢佳豪，来自厦门大学的硕士研究生，导师是沈志荣副教授。我目前的研究兴趣包括高性能和可靠的存储系统。"
+            "en": "I am Jiahao Lu, a M.S. student from Xiamen University, advised by Prof. Zhirong Shen. My current research interests include memory pooling/tiering (CXL/HBM) and reliability. My homepage is `https://lujhcoconut.github.io/` .",
+            "zh": "我是卢佳豪，来自厦门大学的硕士研究生，导师是沈志荣副教授。我目前的研究兴趣包括层级内存、池化内存以及内存可靠性。我的主页是`https://lujhcoconut.github.io/`。"
         },
         "education": {
             "en": [
-                { "degree": "B.S.", "major": "Zhejiang Normal University", "period": "2020 - 2024" }
+                { "degree": "B.S.", "major": "Software Engineering, Zhejiang Normal University", "period": "2020 - 2024" }
             ],
             "zh": [
-                { "degree": "学士", "major": "浙江师范大学", "period": "2020 - 2024" }
+                { "degree": "学士", "major": "软件工程，浙江师范大学", "period": "2020 - 2024" }
             ]
         },
         "publications": {
@@ -452,6 +452,44 @@
             "zh": [
                 { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2024 - 至今" },
                 { "degree": "B.S.", "major": "计算机科学, 福州大学", "period": "2020 - 2024" }
+            ]
+        },
+        "publications": {
+            "group": [],
+            "personal": []
+        },
+        "major_awards": {
+            "en": [],
+            "zh": []
+        }
+    },
+    {
+        "name": {
+            "en": "Defang Chen",
+            "zh": "陈德芳"
+        },
+        "slug": "de-fang-chen",
+        "photo": "de-fang-chen",
+        "degree": "MS Student",
+        "position": {
+            "en": "MS Student",
+            "zh": "硕士"
+        },
+        "links": [
+            { "type": "email", "url": "2754285277@qq.com" }
+        ],
+        "about_me": {
+            "en": "I am a Master's student (starting in 2025) in the Department of Computer Science at Xiamen University, advised by Zhirong Shen. My current main focus is on reconfigurable operating systems.",
+            "zh": "我是陈德芳，厦门大学2025级计算机系硕士，导师是沈志荣教授。我当前的研究兴趣是可重构操作系统。"
+        },
+        "education": {
+            "en": [
+                { "degree": "M.S.", "major": "Computer Science, Xiamen University", "period": "2025 - Present" },
+                { "degree": "B.S.", "major": "Computer Science, Xiamen University", "period": "2021 - 2025" }
+            ],
+            "zh": [
+                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2024 - 至今" },
+                { "degree": "B.S.", "major": "计算机科学, 厦门大学", "period": "2020 - 2024" }
             ]
         },
         "publications": {
