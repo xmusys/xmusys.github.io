@@ -476,7 +476,7 @@
             "zh": "硕士"
         },
         "links": [
-            { "type": "email", "url": "2754285277@qq.com" }
+            { "type": "email", "url": "mailto:2754285277@qq.com" }
         ],
         "about_me": {
             "en": "I am a Master's student (starting in 2025) in the Department of Computer Science at Xiamen University, advised by Zhirong Shen. My current main focus is on reconfigurable operating systems.",
@@ -514,7 +514,7 @@
             "zh": "硕士"
         },
         "links": [
-            { "type": "email", "url": "yingzisashuang13@163.com" }
+            { "type": "email", "url": "mailto:yingzisashuang13@163.com" }
         ],
         "about_me": {
             "en": "I am a M.S student (starting in 2025) in the Department of Computer Science at Xiamen University, advised by Prof. Zhirong Shen.",
@@ -552,7 +552,7 @@
             "zh": "硕士"
         },
         "links": [
-            { "type": "email", "url": "luyongcheng0331@163.com" }
+            { "type": "email", "url": "mailto:luyongcheng0331@163.com" }
         ],
         "about_me": {
             "en": "I am a M.S student (starting in 2025) in the Department of Computer Science at Xiamen University, advised by Prof. Zhirong Shen. My research focuses on reconfigurable operating systems.",
@@ -590,10 +590,10 @@
             "zh": "硕士"
         },
         "links": [
-            { "type": "email", "url": "sunga456@126.com" }
+            { "type": "email", "url": "mailto:sunga456@126.com" }
         ],
         "about_me": {
-            "en": "I am Gang Sun, a first-year master's student in the field of Computer Technology at Xiamen University, supervised by Professor Zhirong Shen. My current research interests include high-bandwidth memory (HBM), AI operator behavior modeling, and heterogeneous integrated memory technologies. You can find more information about me on my personal website: `https://deepcity.github.io/ `",
+            "en": "I am Gang Sun, a first-year master's student in the field of Computer Technology at Xiamen University, supervised by Professor Zhirong Shen. My current research interests include high-bandwidth memory (HBM), AI operator behavior modeling, and heterogeneous integrated memory technologies. You can find more information about me on my personal website: `https://deepcity.github.io/`",
             "zh": "我是孙港，来自厦门大学计算机技术专业的一年级硕士研究生，导师是沈志荣教授。我目前的研究兴趣包括高带宽内存、AI算子行为建模、异构融合内存。我的主页是`https://deepcity.github.io/`。"
         },
         "education": {
