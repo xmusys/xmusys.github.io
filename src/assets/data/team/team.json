@@ -576,5 +576,81 @@
             "en": [],
             "zh": []
         }
+    },
+    {
+        "name": {
+            "en": "Gang Sun",
+            "zh": "孙港"
+        },
+        "slug": "gang-sun",
+        "photo": "gang-sun",
+        "degree": "MS Student",
+        "position": {
+            "en": "MS Student",
+            "zh": "硕士"
+        },
+        "links": [
+            { "type": "email", "url": "sunga456@126.com" }
+        ],
+        "about_me": {
+            "en": "I am Gang Sun, a first-year master's student in the field of Computer Technology at Xiamen University, supervised by Professor Zhirong Shen. My current research interests include high-bandwidth memory (HBM), AI operator behavior modeling, and heterogeneous integrated memory technologies. You can find more information about me on my personal website: `https://deepcity.github.io/ `",
+            "zh": "我是孙港，来自厦门大学计算机技术专业的一年级硕士研究生，导师是沈志荣教授。我目前的研究兴趣包括高带宽内存、AI算子行为建模、异构融合内存。我的主页是`https://deepcity.github.io/`。"
+        },
+        "education": {
+            "en": [
+                { "degree": "M.S.", "major": "Computer Science, Xiamen University", "period": "2025 - Present" },
+                { "degree": "B.S.", "major": "Software Engineering, Jiangxi University of Science and Technology", "period": "2021 - 2025" }
+            ],
+            "zh": [
+                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2025 - 至今" },
+                { "degree": "B.S.", "major": "软件工程，江西理工大学", "period": "2021 - 2025" }
+            ]
+        },
+        "publications": {
+            "group": [],
+            "personal": []
+        },
+        "major_awards": {
+            "en": [],
+            "zh": []
+        }
+    },
+    {
+        "name": {
+            "en": "Yixiu Zhou",
+            "zh": "周奕秀"
+        },
+        "slug": "yi-xiu-zhou",
+        "photo": "yi-xiu-zhou",
+        "degree": "MS Student",
+        "position": {
+            "en": "MS Student",
+            "zh": "硕士"
+        },
+        "links": [
+            { "type": "email", "url": "z13824221423@163.com" }
+        ],
+        "about_me": {
+            "en": "I am Yixiu Zhou, a M.S student (starting in 2025) in the Department of Computer Science at Xiamen University, advised by Prof. Zhirong Shen.",
+            "zh": "我是周奕秀，厦门大学2025级计算机系硕士，导师是沈志荣教授。"
+        },
+        "education": {
+            "en": [
+                { "degree": "M.S.", "major": "Computer Science, Xiamen University", "period": "2025 - Present" },
+                { "degree": "B.S.", "major": "Software Engineering, South China Normal University", "period": "2021 - 2025" }
+            ],
+            "zh": [
+                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2025 - 至今" },
+                { "degree": "B.S.", "major": "软件工程，华南师范大学", "period": "2021 - 2025" }
+            ]
+        },
+        "publications": {
+            "group": [],
+            "personal": []
+        },
+        "major_awards": {
+            "en": [],
+            "zh": []
+        }
     }
 ]
