@@ -3,7 +3,7 @@
         "paper_id": "C36",
         "title": "MetoHash: A Memory-Efficient and Traffic-Optimized Hashing Index on Hybrid PMem-DRAM Memories.",
         "authors": "Zixiang Yu#, Guangyang Deng#, Zhirong Shen*, Qiangsheng Su, Ronglong Wu, Xinbin Hu, Xiaoli Wang, Quanqing Xu, Chuanhui Yang, Zhifeng Bao, Yiming Zhang, Jiwu Shu",
-        "publication": "In Proceedings of International Conference for High Performance Computing, Networking, Storage and Analysis (SC'25), November 16-21, 2025. (AR: 136/643=21.2%)",
+        "publication": "In Proceedings of International Conference for High Performance Computing, Networking, Storage and Analysis (**SC'25**), November 16-21, 2025. (AR: 136/643=21.2%)",
         "links": []
     },
     {
