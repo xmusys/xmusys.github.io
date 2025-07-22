@@ -1,5 +1,19 @@
 [
     {
+        "paper_id": "J27",
+        "title": "Looking Back to Move Forward: Unveiling the Mysteries of HBM Errors to Predict Future Failures.",
+        "authors": "Shuyue Zhou, Xinbin Hu, Ronglong Ww, Jiahao Lu, Zhirong Shen† , Zikang Xu, Yue Yu, Jiwu Shu，Kunlin Yang,  Feilong Lin, Yiming Zhang",
+        "publication": "Accepted to ACM Transactions on Storage (**TOS**).",
+        "links": []
+    },
+    {
+        "paper_id": "J26",
+        "title": "From In-Place Updates to Out-of-Place Selections: Reconsidering Write Disturbance in Non-Volatile Memory.",
+        "authors": "Shuyue Zhou# , Ronglong Wu# , Hao Li, Zhenggang Lin, Chengshuo Zheng, Zhirong Shen† , Yijie Zhong,  Fulin Nan, Jiwu Shu",
+        "publication": "Accepted to ACM Transactions on Storage (**TOS**).",
+        "links": []
+    },
+    {
         "paper_id": "J25",
         "title": "TPRepair: Tree-Based Pipelined Repair in Clustered Storage Systems.",
         "authors": "Jiahui Yang, Fulin Nan, Zhirong Shen, Zhisheng Chen, Yuhui Cai, Dmitrii Kaplun, Xiaoli Wang, Quanqing Xu, Chuanhui Yang, and Jiwu Shu.",
