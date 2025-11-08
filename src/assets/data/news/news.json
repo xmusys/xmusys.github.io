@@ -1,5 +1,19 @@
 [
     {
+        "date": "2025-11",
+        "content": {
+            "en": "Two Papers have been accepted to HPCA'26. Congrats to Chenglin, Shouxin, [Guangyang](/guang-yang-deng) and [Zixiang](/zi-xiang-yu).",
+            "zh": "两篇论文被HPCA'26接收。祝贺成林、守鑫以及[光阳](/guang-yang-deng)、子祥。"
+        }
+    }, 
+    {
+        "date": "2025-10",
+        "content": {
+            "en": "One Paper has been accepted to IEEE TC.  Congrats to [Yuhui](/yu-hui-cai).",
+            "zh": "一篇论文被IEEE TC录用。祝贺 [蔡煜晖](/yu-hui)。"
+        }
+    }, 
+    {
         "date": "2025-07",
         "content": {
             "en": "Two Papers have been accepted to ACM TOS. Congrats to [Shuyue](/shu-yue-zhou)，[Ronglong](/rong-long-wu)，[Xinbin](/xin-bin-hu).",
