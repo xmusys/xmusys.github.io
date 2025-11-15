@@ -161,7 +161,8 @@
         },
         "publications": {
             "group": [
-                "C32"
+                "C32","C37"
+                "J26","J27"
             ],
             "personal": [
                 {
@@ -208,8 +209,8 @@
         },
         "publications": {
             "group": [
-                "C32", "C30","C35","C36",
-                "J22"
+                "C32", "C30","C35","C36","C37"
+                "J22","J26","J27"
             ],
             "personal": []
         },
@@ -252,7 +253,7 @@
             ]
         },
         "publications": {
-            "group": ["C36"],
+            "group": ["C36","C38],
             "personal": []
         
         },
@@ -365,7 +366,10 @@
             ]
         },
         "publications": {
-            "group": ["C32"],
+            "group": [
+                "C32"
+                "J27"
+            ],
             "personal": []
         },
         "major_awards": {
@@ -403,7 +407,7 @@
             ]
         },
         "publications": {
-            "group": ["C36"],
+            "group": ["C36","C38"],
             "personal": []
         },
         "major_awards": {
@@ -455,7 +459,9 @@
             ]
         },
         "publications": {
-            "group": [],
+            "group": [
+                "J27"
+            ],
             "personal": []
         },
         "major_awards": {
