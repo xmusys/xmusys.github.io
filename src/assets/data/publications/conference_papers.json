@@ -1,4 +1,18 @@
 [
+     {
+        "paper_id": "C38",
+        "title": "Pulse: Fine-Grained Hierarchical Hashing Index for Disaggregated Memory.",
+        "authors": "Guangyang Deng#, Zixiang Yu#, Zhirong Shen*, Qiangsheng Su, Jiwu Shu",
+        "publication": "In Proceedings of International Symposium on High-Performance Computer Architecture (HPCA'26), January 31st-February 4th, 2026. (AR: 119/563=19.7%)",
+        "links": []
+    },
+    {
+        "paper_id": "C37",
+        "title": "Predicting DRAM Failures at Scale: A Two-Stage Approach for Heterogeneous Systems.",
+        "authors": "Chenglin Wang#, Shouxin Wang#, Shuyue Zhou, Ronglong Wu, Zhirong Shen*, Lu Tang, Yiming Zhang, Jialiang Yu, Min Zhou",
+        "publication": "In Proceedings of International Symposium on High-Performance Computer Architecture (HPCA'26), January 31st-February 4th, 2026. (AR: 119/563=19.7%)",
+        "links": []
+    },
     {
         "paper_id": "C36",
         "title": "MetoHash: A Memory-Efficient and Traffic-Optimized Hashing Index on Hybrid PMem-DRAM Memories.",
