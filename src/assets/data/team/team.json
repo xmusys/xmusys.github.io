@@ -161,7 +161,7 @@
         },
         "publications": {
             "group": [
-                "C32","C37"
+                "C32","C37",
                 "J26","J27"
             ],
             "personal": [
@@ -209,7 +209,7 @@
         },
         "publications": {
             "group": [
-                "C32", "C30","C35","C36","C37"
+                "C32", "C30","C35","C36","C37",
                 "J22","J26","J27"
             ],
             "personal": []
@@ -367,7 +367,7 @@
         },
         "publications": {
             "group": [
-                "C32"
+                "C32",
                 "J27"
             ],
             "personal": []
