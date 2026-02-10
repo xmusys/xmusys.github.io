@@ -1,5 +1,12 @@
 [
     {
+        "paper_id": "J28",
+        "title": "SRIndex: Bridging the Last Mile between Learned-Index Scalability and Workload Dynamics for Memory Pooling Systems.",
+        "authors": "Zhiwei Yang#, Shuyue Zhou#, Zhirong Shen*, Yixiu Zhou, Ronglong Wu, Jiwu Shu",
+        "publication": "Accepted to ACM Transactions on Storage (**TOS**).",
+        "links": []
+    },
+    {
         "paper_id": "J27",
         "title": "Looking Back to Move Forward: Unveiling the Mysteries of HBM Errors to Predict Future Failures.",
         "authors": "Shuyue Zhou, Xinbin Hu, Ronglong Wu, Jiahao Lu, Zhirong Shen† , Zikang Xu, Yue Yu, Jiwu Shu，Kunlin Yang,  Feilong Lin, Yiming Zhang",
