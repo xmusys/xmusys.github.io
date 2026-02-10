@@ -1,6 +1,21 @@
 [
    {
     "name": {
+      "en": "Yijie Zhong",
+      "zh": "钟一捷"
+    },
+    "degree": {
+      "en": "PhD",
+      "zh": "博士"
+    },
+    "year": "2025",
+    "first_job": {
+      "en": "Postdoc@PKU",
+      "zh": "北京大学博士后"
+    }
+  },
+   {
+    "name": {
       "en": "Zhisheng Chen",
       "zh": "陈志盛"
     },
