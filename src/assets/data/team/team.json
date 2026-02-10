@@ -94,44 +94,6 @@
     },
     {
         "name": {
-            "en": "Yijie Zhong",
-            "zh": "钟一捷"
-        },
-        "slug": "yi-jie-zhong",
-        "photo": "yi_jie_zhong",
-        "degree": "PhD Student",
-        "position": {
-            "en": "Forth-year PhD student",
-            "zh": "博士生四年级"
-        },
-        "links": [
-            { "type": "email", "url": "mailto:yijiezhong12@gmail.com"}
-        ],
-        "about_me": {
-            "en": "I am Yijie Zhong, a PhD student from School of Informatics at Xiamen University, advised by Professor Zhirong Shen. My research focus is building memory and storage systems.",
-            "zh": "钟一捷，厦门大学信息学院2021级博士生，导师为沈志荣老师。主要研究方向为操作系统和分布式系统。"
-        },
-        "education": {
-            "en": [
-                { "degree": "Ph.D.", "major": "in School of Informatics, Xiamen University", "period": "2021 - Present" }
-            ],
-            "zh": [
-                { "degree": "博士研究生", "major": "厦门大学信息学院", "period": "2021 - 至今" }
-            ]
-        },
-        "publications": {
-            "group": [
-                "C33", "C28"
-            ],
-            "personal": []
-        },
-        "major_awards": {
-            "en": [],
-            "zh": []
-        }
-    },
-    {
-        "name": {
             "en": "Shuyue Zhou",
             "zh": "周书悦"
         },
