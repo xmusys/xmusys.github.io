@@ -2,8 +2,7 @@
     {
         "paper_id": "J29",
         "title": "FlexRT: Enabling Flexible and Efficient Redundancy Transitioning in Erasure-Coded Systems.",
-        "authors": "Fulin Nan, Liang Chen, Zehai Chen, Ronglong Wu, Zhirong Shen, Zhifeng Bao, DMITRII KAPLUN, Jiwu
-Shu.",
+        "authors": "Fulin Nan, Liang Chen, Zehai Chen, Ronglong Wu, Zhirong Shen, Zhifeng Bao, DMITRII KAPLUN, Jiwu Shu.",
         "publication": "Accepted to ACM Transactions on Architecture and Code Optimization (**TACO**).",
         "links": []
     },
