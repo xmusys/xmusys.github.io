@@ -1,5 +1,12 @@
 [
      {
+        "paper_id": "C39",
+        "title": "Breaking Barriers in Atomic Scaling: A Hardware-Software-Collaborated Framework to Deconstruct RDMA Atomic.",
+        "authors": "Guangyang Deng, Qiangsheng Su, Zhirong Shen*, Qing Wang, Yina Lv, Ronglong Wu, and Jiwu Shu",
+        "publication": "In Proceedings of International Symposium on Computer Architecture (**ISCA'26**), June 27-July 1, 2026.",
+        "links": []
+    },
+     {
         "paper_id": "C38",
         "title": "Pulse: Fine-Grained Hierarchical Hashing Index for Disaggregated Memory.",
         "authors": "Guangyang Deng#, Zixiang Yu#, Zhirong Shen*, Qiangsheng Su, Jiwu Shu",
