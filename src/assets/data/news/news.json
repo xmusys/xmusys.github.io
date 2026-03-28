@@ -1,5 +1,19 @@
 [
     {
+        "date": "2026-03",
+        "content": {
+            "en": "One Paper has been accepted to ISCA'26. Congrats to [Guangyang](/guang-yang-deng) and [Qiangsheng](/qiang-sheng-su).",
+            "zh": "一篇论文被ISCA'26接收。祝贺[光阳](/guang-yang-deng)、[强生](/qiang-sheng-su)。"
+        }
+    }, 
+    {
+        "date": "2026-02",
+        "content": {
+            "en": "One Paper has been accepted to ACM TACO.  Congrats to [Fulin](/fu-lin-nan).",
+            "zh": "一篇论文被ACM TACO录用。祝贺[南福麟](/fu-lin-nan)。"
+        }
+    }, 
+    {
         "date": "2026-02",
         "content": {
             "en": "One Paper has been accepted to ACM TOS.  Congrats to Zhiwei and [Shuyue](/shu-yue-zhou).",
