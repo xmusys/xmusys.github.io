@@ -1,5 +1,12 @@
 [
      {
+        "paper_id": "C40",
+        "title": "GEM: GPU Erasure-Coded Memory for Fast Training Recovery",
+        "authors": "Ronglong Wu, Huayu Zeng, Xinbin Hu, Shuyue Zhou, Zhirong Shen*, Kunlin Yang, Jiwu Shu, and Yiming Zhang",
+        "publication": "In Proceedings of USENIX Conference on File and Storage Technologies (**FAST'27**), February 23-25, 2027.",
+        "links": []
+    },
+     {
         "paper_id": "C39",
         "title": "Breaking Barriers in Atomic Scaling: A Hardware-Software-Collaborated Framework to Deconstruct RDMA Atomic.",
         "authors": "Guangyang Deng, Qiangsheng Su, Zhirong Shen*, Qing Wang, Yina Lv, Ronglong Wu, and Jiwu Shu",
