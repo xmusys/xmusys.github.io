@@ -1,6 +1,51 @@
 [
    {
     "name": {
+      "en": "Mingqiang Zhou",
+      "zh": "周敏强"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "year": "2026",
+    "first_job": {
+      "en": "Huawei",
+      "zh": "华为"
+    }
+  }, 
+   {
+    "name": {
+      "en": "Jiahui Yang",
+      "zh": "杨佳晖"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "year": "2026",
+    "first_job": {
+      "en": "Civil servant",
+      "zh": "公务员"
+    }
+  },
+   {
+    "name": {
+      "en": "Qiangsheng Su",
+      "zh": "苏强生"
+    },
+    "degree": {
+      "en": "Master",
+      "zh": "硕士"
+    },
+    "year": "2026",
+    "first_job": {
+      "en": "Pinduoduo",
+      "zh": "拼多多"
+    }
+  },
+   {
+    "name": {
       "en": "Yijie Zhong",
       "zh": "钟一捷"
     },
