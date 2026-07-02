@@ -1,5 +1,12 @@
 [
      {
+        "paper_id": "C41",
+        "title": "Chisa: Dynamic Logical Way Partitioning for Efficient Caching in Sparse Accelerators.",
+        "authors": "Jiahao Lu, Zhirong Shen*, and Jiwu Shu",
+        "publication": "In Proceedings of International Conference for High Performance Computing, Networking, Storage and Analysis (**SC'26**), November 15-20, 2026. (AR: 19.2%)",
+        "links": []
+    },
+     {
         "paper_id": "C40",
         "title": "GEM: GPU Erasure-Coded Memory for Fast Training Recovery",
         "authors": "Ronglong Wu, Huayu Zeng, Xinbin Hu, Shuyue Zhou, Zhirong Shen*, Kunlin Yang, Jiwu Shu, and Yiming Zhang",
