@@ -189,72 +189,33 @@
     },
     {
         "name": {
-            "en": "Qiangsheng Su",
-            "zh": "苏强生"
+            "en": "Xi Ou",
+            "zh": "欧熙"
         },
-        "slug": "qiang-sheng-su",
-        "photo": "qiang_sheng_su",
-        "degree": "MS Student",
+        "slug": "xi-ou",
+        "photo": "xi-ou",
+        "degree": "PhD Student",
         "position": {
-            "en": "MS Student",
-            "zh": "硕士"
-        },
-        "links": [],
-        "about_me": {
-            "en": "I am QiangSheng Su, a 2nd-year MS student from Xiamen University, advised by Professor Zhirong Shen. I am a KV store researcher. My research focus is hashing index.",
-            "zh": "我是苏强生，来自厦门大学计算机技术专业的二年级硕士研究生，导师是沈志荣教授。我是一名KV存储研究员。我的研究重点是哈希索引。"
-        },
-        "education": {
-            "en": [
-                { "degree": "M.S.", "major": "Department of Computer Science, Xiamen University", "period": "2023 - Present" },
-                { "degree": "B.S.", "major": "Department of Computer Science, Xiamen University", "period": "2019 - 2023" }
-            ],
-            "zh": [
-                { "degree": "硕士", "major": "厦门大学计算机科学系", "period": "2023 - 至今" },
-                { "degree": "学士", "major": "厦门大学计算机科学系", "period": "2019 - 2023" }
-            ]
-        },
-        "publications": {
-            "group": ["C36","C38"],
-            "personal": []
-        
-        },
-        "major_awards": {
-            "en": [],
-            "zh": []
-        }
-    },
-    {
-        "name": {
-            "en": "Jiahui Yang",
-            "zh": "杨佳晖"
-        },
-        "slug": "jia-hui-yang",
-        "photo": "jia_hui_yang",
-        "degree": "MS Student",
-        "position": {
-            "en": "MS Student",
-            "zh": "硕士"
+            "en": "PhD Student",
+            "zh": "博士"
         },
         "links": [
-            { "type": "email", "url": "mailto:jiahuiyang@stu.xmu.edu.cn" }
+            { "type": "email", "url": "" }
         ],
         "about_me": {
-            "en": "I am Jiahui Yang, a second-year master student from Xiamen University, advised by Professor Zhirong Shen. I am a system researcher. My research focus on in-memory cache and storage reliability. I am so excited about the Erasure codes.",
-            "zh": "我是杨佳晖，来自厦门大学计算机技术专业的二年级硕士研究生，导师是沈志荣教授。我是一名系统研究员。我的研究重点是内存缓存和存储可靠性。我对纠删码非常感兴趣。"
+        "en": "I am Xi Ou, a Ph.D. student in the Department of Computer Science at Xiamen University, advised by Prof. Zhirong Shen. My research focuses on building efficient and reliable large-scale computing systems.",
+        "zh": "我是欧熙，厦门大学计算机系的博士生，导师是沈志荣教授。我的研究方向是构建高效可靠的大规模计算系统。"
         },
         "education": {
             "en": [
-                { "degree": "Master", "major": "Department of Computer Science, Xiamen University", "period": "2023 - Present" },
-                { "degree": "B.S.", "major": "Department of Computer Science, Xiamen University", "period": "2019 - 2023" }
+                { "degree": "Ph.D.", "major": "Department of Computer Science, Xiamen University", "period": "2026 - Present" }
             ],
             "zh": [
-                { "degree": "硕士", "major": "厦门大学计算机科学系", "period": "2023 - 至今" },
-                { "degree": "学士", "major": "厦门大学计算机科学系", "period": "2019 - 2023" }
+                { "degree": "博士", "major": "计算机系, 厦门大学", "period": "2026 - 至今" }
             ]
         },
         "publications": {
-            "group": ["C35","C34","J25"],
+            "group": [],
             "personal": []
         },
         "major_awards": {
@@ -262,33 +223,33 @@
             "zh": []
         }
     },
-    {
+        {
         "name": {
-            "en": "Minqiang Zhou",
-            "zh": "周敏强"
+            "en": "Shaokun Wan",
+            "zh": "万邵昆"
         },
-        "slug": "min-qiang-zhou",
-        "photo": "min_qiang_zhou",
-        "degree": "MS Student",
+        "slug": "shao-kun-wan",
+        "photo": "shao-kun-wan",
+        "degree": "PhD Student",
         "position": {
-            "en": "MS Student",
-            "zh": "硕士"
+            "en": "PhD Student",
+            "zh": "博士"
         },
         "links": [
-            { "type": "email", "url": "mailto:zhoumq@stu.xmu.edu.cn"}
+            { "type": "email", "url": "" }
         ],
         "about_me": {
-            "en": "I am Minqiang Zhou, a second-year master student from Xiamen University, advised by Professor Zhirong Shen. I am a system researcher. My research focus is Disaggregated Memory. I am so excited about the LSM tree.",
-            "zh": "我是周敏强，来自厦门大学计算机技术专业的二年级硕士研究生，导师是沈志荣教授。我是一名系统研究员。我的研究重点是分散式存储。我对 LSM 树非常感兴趣。"
+        "en": "I am Wan Shaokun, a Ph.D. student in the School of Informatics at Xiamen University since 2026, advised by Professor Zhirong Shen. My current research interest is building an efficient memory tiering system.",
+        "zh": "我是万邵昆，2026年开始在厦门大学信息学院攻读博士学位，导师是沈志荣教授。我目前的研究兴趣是构建一个高效内存分层系统。"
         },
         "education": {
             "en": [
-                { "degree": "Master", "major": "Department of Computer Science, Xiamen University", "period": "2023 - Present" },
-                { "degree": "B.S.", "major": "Department of Computer Science, Wuhan University of Technology", "period": "2019 - 2023" }
+                { "degree": "Ph.D.", "major": "School of Informatics, Xiamen University", "period": "2026 - Present" },
+                { "degree": "M.S.", "major": "School of Mathematics and Computer Science, Nanchang University", "period": "2023 - 2026" }
             ],
             "zh": [
-                { "degree": "硕士", "major": "厦门大学计算机科学系", "period": "2023 - 至今" },
-                { "degree": "学士", "major": "武汉理工大学计算机科学系", "period": "2019 - 2023" }
+                { "degree": "博士", "major": "信息学院, 厦门大学", "period": "2026 - 至今" },
+                { "degree": "硕士", "major": "数学与计算机学院, 南昌大学", "period": "2023 - 2026" }
             ]
         },
         "publications": {
@@ -585,31 +546,31 @@
     },
     {
         "name": {
-            "en": "Yixiu Zhou",
-            "zh": "周奕秀"
+            "en": "Jin Zhang",
+            "zh": "张锦"
         },
-        "slug": "yi-xiu-zhou",
-        "photo": "yi-xiu-zhou",
+        "slug": "jin-zhang",
+        "photo": "jin-zhang",
         "degree": "MS Student",
         "position": {
             "en": "MS Student",
             "zh": "硕士"
         },
         "links": [
-            { "type": "email", "url": "z13824221423@163.com" }
+            { "type": "email", "url": "fengzhiyuhua@qq.com" }
         ],
         "about_me": {
-            "en": "I am Yixiu Zhou, a M.S student (starting in 2025) in the Department of Computer Science at Xiamen University, advised by Prof. Zhirong Shen.",
-            "zh": "我是周奕秀，厦门大学2025级计算机系硕士，导师是沈志荣教授。"
+            "en": "I am Jin Zhang, a 2026 master’s student at the Institute of Artificial Intelligence, Xiamen University, advised by Professor Zhirong Shen. My current research interest is vector retrieval.",
+            "zh": "我是张锦，厦门大学人工智能研究院2026级硕士，导师是沈志荣教授。我当前的研究兴趣是向量检索。"
         },
         "education": {
             "en": [
-                { "degree": "M.S.", "major": "Computer Science, Xiamen University", "period": "2025 - Present" },
-                { "degree": "B.S.", "major": "Software Engineering, South China Normal University", "period": "2021 - 2025" }
+                { "degree": "M.S.", "major": "Computer Science, Xiamen University", "period": "2026 - Present" },
+                { "degree": "B.S.", "major": "Artificial Intelligence, Xiamen University", "period": "2022 - 2026" }
             ],
             "zh": [
-                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2025 - 至今" },
-                { "degree": "B.S.", "major": "软件工程，华南师范大学", "period": "2021 - 2025" }
+                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2026 - 至今" },
+                { "degree": "B.S.", "major": "人工智能, 厦门大学", "period": "2022 - 2026" }
             ]
         },
         "publications": {
@@ -620,5 +581,125 @@
             "en": [],
             "zh": []
         }
-    }
+    },
+    {
+        "name": {
+            "en": "Zhenggang Lin",
+            "zh": "林正刚"
+        },
+        "slug": "zheng-gang-lin",
+        "photo": "zheng-gang-lin",
+        "degree": "MS Student",
+        "position": {
+            "en": "MS Student",
+            "zh": "硕士"
+        },
+        "links": [
+            { "type": "email", "url": "3190916418@qq.com" }
+        ],
+        "about_me": {
+            "en": " am Lin Zhenggang, a first-year master’s student in Computer Technology at Xiamen University, advised by Professor Zhirong Shen. My research focuses on approximate nearest neighbor search (ANNS) and multimodal model inference.",
+            "zh": "我是林正刚，来自厦门大学计算机技术专业的一年级硕士研究生，导师是沈志荣教授。我的研究重点是 ANNS 与多模态模型推理相关技术。"
+        },
+        "education": {
+            "en": [
+                { "degree": "M.S.", "major": "Computer Science, Xiamen University", "period": "2026 - Present" },
+                { "degree": "B.S.", "major": "Computer Science, Xiamen University", "period": "2022 - 2026" }
+            ],
+            "zh": [
+                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2026 - 至今" },
+                { "degree": "B.S.", "major": "计算机科学, 厦门大学", "period": "2022 - 2026" }
+            ]
+        },
+        "publications": {
+            "group": [],
+            "personal": []
+        },
+        "major_awards": {
+            "en": [],
+            "zh": []
+        }
+    },
+    {
+        "name": {
+            "en": "Lingqun Huang",
+            "zh": "黄令群"
+        },
+        "slug": "ling-qun-huang",
+        "photo": "ling-qun-huang",
+        "degree": "MS Student",
+        "position": {
+            "en": "MS Student",
+            "zh": "硕士"
+        },
+        "links": [
+            { "type": "email", "url": "1826471263@qq.com" }
+        ],
+        "about_me": {
+            "en": "I am Huang Lingqun, a first-year master's student at Xiamen University, advised by Professor Zhirong Shen.",
+            "zh": "我是黄令群，来自厦门大学的一年级硕士研究生，导师是沈志荣教授。"
+        },
+        "education": {
+            "en": [
+                { "degree": "M.S.", "major": "Computer Technology, Xiamen University", "period": "2026 - Present" },
+                { "degree": "B.S.", "major": "Information Engineering, Xi'an University of Posts and Telecommunications", "period": "2022 - 2026" }
+            ],
+            "zh": [
+                { "degree": "M.S.", "major": "计算机技术, 厦门大学", "period": "2026 - 至今" },
+                { "degree": "B.S.", "major": "信息工程, 西安邮电大学", "period": "2022 - 2026" }
+            ]
+        },
+        "publications": {
+            "group": [],
+            "personal": []
+        },
+        "major_awards": {
+           "en": [
+            "Bronze Medal, 2024 ICPC Asia Regional Contest, Hangzhou Site",
+            "Bronze Medal, 2024 ICPC Asia Regional Contest, Kunming Site"
+            ],
+            "zh": [
+                "2024年度国际大学生程序设计竞赛亚洲杭州赛区铜奖",
+                "2024年度国际大学生程序设计竞赛亚洲昆明赛区铜奖"
+            ]
+        }
+    },
+    {
+        "name": {
+            "en": "Yihao Zhang",
+            "zh": "张溢豪"
+        },
+        "slug": "yi-hao-zhang",
+        "photo": "yi-hao-zhang",
+        "degree": "MS Student",
+        "position": {
+            "en": "MS Student",
+            "zh": "硕士"
+        },
+        "links": [
+            { "type": "email", "url": "" }
+        ],
+        "about_me": {
+            "en": "I am Zhang Yihao, a 2026 master's student in Computer Technology at Xiamen University, advised by Professor Zhirong Shen.",
+            "zh": "我是张溢豪，来自厦门大学计算机技术专业的2026级硕士研究生，导师是沈志荣教授。"
+        },
+        "education": {
+            "en": [
+                { "degree": "M.S.", "major": "Computer Technology, Xiamen University", "period": "2026 - Present" },
+                { "degree": "B.S.", "major": "Computer Science and Technology, Fujian University of Technology", "period": "2022 - 2026" }
+            ],
+            "zh": [
+                { "degree": "M.S.", "major": "计算机技术, 厦门大学", "period": "2026 - 至今" },
+                { "degree": "B.S.", "major": "计算机科学与技术, 福建理工大学", "period": "2022 - 2026" }
+            ]
+        },
+        "publications": {
+            "group": [],
+            "personal": []
+        },
+        "major_awards": {
+            "en": [],
+            "zh": []
+        }
+    },
 ]
