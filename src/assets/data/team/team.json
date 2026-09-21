@@ -200,7 +200,7 @@
             "zh": "博士"
         },
         "links": [
-            { "type": "email", "url": "" }
+            { "type": "email", "url": "xiou.cs@outlook.com" }
         ],
         "about_me": {
         "en": "I am Xi Ou, a Ph.D. student in the Department of Computer Science at Xiamen University, advised by Prof. Zhirong Shen. My research focuses on building efficient and reliable large-scale computing systems.",
@@ -236,7 +236,7 @@
             "zh": "博士"
         },
         "links": [
-            { "type": "email", "url": "" }
+            { "type": "email", "url": "shaokunwan@stu.xmu.edu.cn" }
         ],
         "about_me": {
         "en": "I am Wan Shaokun, a Ph.D. student in the School of Informatics at Xiamen University since 2026, advised by Professor Zhirong Shen. My current research interest is building an efficient memory tiering system.",
@@ -701,5 +701,5 @@
             "en": [],
             "zh": []
         }
-    },
+    }
 ]
