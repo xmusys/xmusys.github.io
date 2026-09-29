@@ -701,5 +701,43 @@
             "en": [],
             "zh": []
         }
+    },
+    {
+        "name": {
+            "en": "Xinyu Chen",
+            "zh": "陈新宇"
+        },
+        "slug": "xin-yu-chen",
+        "photo": "xin-yu-chen",
+        "degree": "MS Student",
+        "position": {
+            "en": "MS Student",
+            "zh": "硕士"
+        },
+        "links": [
+            { "type": "email", "url": "1219771730@qq.com" }
+        ],
+        "about_me": {
+            "en": "I am a Master's student (starting in 2025) in the Department of Computer Science at Xiamen University, advised by Zhirong Shen. ",
+            "zh": "我是陈新宇，厦门大学2026级计算机系硕士，导师是沈志荣教授。"
+        },
+        "education": {
+            "en": [
+                { "degree": "M.S.", "major": "Computer Science, Xiamen University", "period": "2025 - Present" },
+                { "degree": "B.S.", "major": "Computer Science, Xiamen University", "period": "2021 - 2025" }
+            ],
+            "zh": [
+                { "degree": "M.S.", "major": "计算机科学, 厦门大学", "period": "2026 - 至今" },
+                { "degree": "B.S.", "major": "计算机科学, 厦门大学", "period": "2022 - 2026" }
+            ]
+        },
+        "publications": {
+            "group": [],
+            "personal": []
+        },
+        "major_awards": {
+            "en": [],
+            "zh": []
+        }
     }
 ]
