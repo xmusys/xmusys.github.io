@@ -1,5 +1,12 @@
 [
      {
+        "paper_id": "C42",
+        "title": "LogCache: TTL-Aware Log-Structured Caching for Small Key-Value Objects.",
+        "authors": "Fulin Nan, Zhifei Chen, and Zhirong Shen*",
+        "publication": "In Proceedings of IEEE International Symposium on High-Performance Computer Architecture (HPCA'27), March 20-24, 2027. (AR: 199/1113=17.9%)",
+        "links": []
+    },
+     {
         "paper_id": "C41",
         "title": "Chisa: Dynamic Logical Way Partitioning for Efficient Caching in Sparse Accelerators.",
         "authors": "Jiahao Lu, Zhirong Shen*, and Jiwu Shu",
